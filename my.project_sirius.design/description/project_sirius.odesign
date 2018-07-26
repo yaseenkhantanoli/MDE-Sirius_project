@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:tool="http://www.eclipse.org/sirius/diagram/description/tool/1.1.0" xmlns:tool_1="http://www.eclipse.org/sirius/description/tool/1.1.0" name="project_sirius" version="12.0.0.2017041100">
+  <ownedViewpoints name="Microservices" modelFileExtension="micro">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="micro_diagram" domainClass="micro::MicroserviceArchitecture">
+      <metamodel href="http://it.univa.disim.micro#/"/>
+      <metamodel href="http://www.eclipse.org/acceleo/mtl/3.0#/"/>
+      <metamodel href="http://www.eclipse.org/emf/2002/Ecore#/"/>
+      <defaultLayer name="Default">
+        <edgeMappings name="viewServtoaggreserv_aggreServtoviewServ" deletionDescription="//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='delete']" labelDirectEdit="//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='editname']" sourceMapping="//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='viewservices']" targetMapping="//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']" targetFinderExpression="feature:replicateServices">
+          <style targetArrow="NoDecoration" sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
+            <centerLabelStyleDescription>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="AggregateTomodel" deletionDescription="//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='delete']" labelDirectEdit="//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='editname']" sourceMapping="//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']" targetMapping="//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='Model']" targetFinderExpression="feature:models">
+          <style targetArrow="NoDecoration" sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
+            <centerLabelStyleDescription>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <containerMappings name="aggregated_services" deletionDescription="//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='delete']" labelDirectEdit="//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='editname']" semanticCandidatesExpression="feature:services" domainClass="micro::AggregateService">
+          <subContainerMappings name="API" labelDirectEdit="//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='editname']" semanticCandidatesExpression="feature:api" domainClass="micro::API">
+            <subNodeMappings name="events" labelDirectEdit="//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='editname']" semanticCandidatesExpression="feature:eAllContents" domainClass="micro::Event">
+              <style xsi:type="style:SquareDescription" labelSize="12" labelPosition="node" resizeKind="NSEW" width="8" height="8">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelFormat>bold</labelFormat>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+              </style>
+            </subNodeMappings>
+            <subNodeMappings name="command" labelDirectEdit="//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='editname']" semanticCandidatesExpression="feature:eAllContents" domainClass="micro::Command">
+              <style xsi:type="style:SquareDescription" labelSize="12" labelPosition="node" resizeKind="NSEW" width="8" height="8">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelFormat>bold</labelFormat>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_blue']"/>
+              </style>
+            </subNodeMappings>
+            <subNodeMappings name="Info" labelDirectEdit="//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='editname']" semanticCandidatesExpression="feature:eAllContents" domainClass="micro::Info">
+              <style xsi:type="style:SquareDescription" labelSize="12" labelPosition="node" resizeKind="NSEW" width="8" height="8">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelFormat>bold</labelFormat>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='yellow']"/>
+              </style>
+            </subNodeMappings>
+            <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="16">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelFormat>bold</labelFormat>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_green']"/>
+              <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+            </style>
+          </subContainerMappings>
+          <subContainerMappings name="Operation" labelDirectEdit="//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='editname']" semanticCandidatesExpression="feature:operation" domainClass="micro::Operation">
+            <subContainerMappings name="saga" labelDirectEdit="//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='editname']" semanticCandidatesExpression="feature:Saga" domainClass="micro::Saga">
+              <subNodeMappings name="Step" labelDirectEdit="//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='editname']" semanticCandidatesExpression="feature:eAllContents" domainClass="micro::Step">
+                <style xsi:type="style:SquareDescription" labelSize="12" labelPosition="node" resizeKind="NSEW" width="8" height="8">
+                  <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                  <labelFormat>bold</labelFormat>
+                  <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                  <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='red']"/>
+                </style>
+              </subNodeMappings>
+              <subNodeMappings name="Data" labelDirectEdit="//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='editname']" semanticCandidatesExpression="feature:eAllContents" domainClass="micro::Data">
+                <style xsi:type="style:SquareDescription" labelSize="12" labelPosition="node" resizeKind="NSEW" width="8" height="8">
+                  <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                  <labelFormat>bold</labelFormat>
+                  <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                  <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='green']"/>
+                </style>
+              </subNodeMappings>
+              <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="16">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelFormat>bold</labelFormat>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+                <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='dark_orange']"/>
+              </style>
+            </subContainerMappings>
+            <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="16">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelFormat>bold</labelFormat>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+              <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+            </style>
+          </subContainerMappings>
+          <style xsi:type="style:FlatContainerStyleDescription" arcHeight="20" borderSizeComputationExpression="1" labelSize="16" widthComputationExpression="10" heightComputationExpression="10" backgroundStyle="GradientTopToBottom">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelFormat>bold</labelFormat>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='red']"/>
+            <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_green']"/>
+          </style>
+        </containerMappings>
+        <containerMappings name="viewservices" deletionDescription="//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='delete']" labelDirectEdit="//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='editname']" semanticCandidatesExpression="feature:services" domainClass="micro::ViewService">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="25" labelAlignment="RIGHT" sizeComputationExpression="2" workspacePath="/my.project_sirius.design/Icons/viewicon.svg">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelFormat>bold</labelFormat>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </containerMappings>
+        <containerMappings name="Model" preconditionExpression="aql:micro::MicroserviceArchitecture." labelDirectEdit="//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='editname']" semanticCandidatesExpression="feature:models" domainClass="micro::Model">
+          <subNodeMappings name="PrimitiveTypeAttribute" labelDirectEdit="//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='editname']" semanticCandidatesExpression="feature:eAllContents" domainClass="micro::PrimitiveTypeAttribute">
+            <style xsi:type="style:SquareDescription" labelSize="12" labelPosition="node" resizeKind="NSEW" width="8" height="8">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelFormat>bold</labelFormat>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_red']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="ReferenceAttribute" labelDirectEdit="//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='editname']" semanticCandidatesExpression="feature:eAllContents" domainClass="micro::ReferenceAttribute">
+            <style xsi:type="style:SquareDescription" labelSize="12" labelPosition="node" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelFormat>bold</labelFormat>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='chocolate']"/>
+            </style>
+          </subNodeMappings>
+          <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="25" widthComputationExpression="15" heightComputationExpression="15">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelFormat>bold</labelFormat>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='dark_purple']"/>
+          </style>
+        </containerMappings>
+        <toolSections name="tools">
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="viewservices" forceRefresh="true" containerMappings="//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='viewservices']" iconPath="/my.project_sirius.design/section icons/view.png">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="micro::ViewService" referenceName="services">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="aql:'viewservice'+container.services->filter(micro::MicroserviceArchitecture)->size()"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="aggregated_services" forceRefresh="true" containerMappings="//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']" iconPath="/my.project_sirius.design/section icons/aggregate.png">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="micro::AggregateService" referenceName="services">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="aql:'aggregated_services'+container.services->filter(micro::MicroserviceArchitecture)->size()"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="Model" forceRefresh="true" containerMappings="//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='Model']" iconPath="/my.project_sirius.design/section icons/ModelIcon.png">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="micro::Model" referenceName="models">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="aql:'Model'+container.services->filter(micro::MicroserviceArchitecture)->size()"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="Api" forceRefresh="true" containerMappings="//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='API']" iconPath="/my.project_sirius.design/section icons/api.png">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="micro::API" referenceName="api">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="aql:'API'+container.Aapi->filter(micro::MicroserviceArchitecture)->size()"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="Operation" forceRefresh="true" containerMappings="//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='Operation']" iconPath="/my.project_sirius.design/section icons/OperationIcon.png">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="micro::Operation" referenceName="operation">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="aql:'Operation'+container.operation->filter(micro::MicroserviceArchitecture)->size()"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="saga" forceRefresh="true" containerMappings="//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='Operation']/@subContainerMappings[name='saga']" iconPath="/my.project_sirius.design/section icons/SagaIcon.png">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="micro::Saga" referenceName="Saga">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="aql:'saga'+container.Saga->filter(micro::MicroserviceArchitecture)->size()"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="events" forceRefresh="true" nodeMappings="//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='API']/@subNodeMappings[name='events']" iconPath="/my.project_sirius.design/section icons/EventIcon.png">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="micro::Event" referenceName="events">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="aql:'events'+container.events->filter(micro::MicroserviceArchitecture)->size()"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="command" forceRefresh="true" nodeMappings="//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='API']/@subNodeMappings[name='command']" iconPath="/my.project_sirius.design/section icons/CommandIcon.png">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="micro::Command" referenceName="commands">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="aql:'command'+container.commands->filter(micro::MicroserviceArchitecture)->size()"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Info" forceRefresh="true" nodeMappings="//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='API']/@subNodeMappings[name='Info']" iconPath="/my.project_sirius.design/section icons/InfoEventIcon.png">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="micro::Info" referenceName="infos">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="aql:'infos'+container.infos->filter(micro::MicroserviceArchitecture)->size()"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Step" forceRefresh="true" nodeMappings="//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='Operation']/@subContainerMappings[name='saga']/@subNodeMappings[name='Step']" iconPath="/my.project_sirius.design/section icons/steps.png">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="micro::Step" referenceName="Steps">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="aql:'Step'+container.Steps->filter(micro::MicroserviceArchitecture)->size()"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Data" nodeMappings="//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='Operation']/@subContainerMappings[name='saga']/@subNodeMappings[name='Data']" iconPath="/my.project_sirius.design/section icons/data.png">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="micro::Data" referenceName="Data">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="aql:'Data'+container.Data->filter(micro::MicroserviceArchitecture)->size()"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="PrimitiveTypeAttribute" nodeMappings="//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='Model']/@subNodeMappings[name='PrimitiveTypeAttribute']" iconPath="/my.project_sirius.design/section icons/primitivetype.png">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="micro::PrimitiveTypeAttribute" referenceName="attributes">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="aql:'PrimitiveTypeAttribute'+container.attributes->filter(micro::MicroserviceArchitecture)->size()"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="ReferenceAttribute" forceRefresh="true" nodeMappings="//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='Model']/@subNodeMappings[name='ReferenceAttribute']" iconPath="/my.project_sirius.design/section icons/reference.png">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="micro::ReferenceAttribute" referenceName="attributes">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="aql:'ReferenceAttribute'+container.attributes->filter(micro::MicroserviceArchitecture)->size()"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="editname" forceRefresh="true">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="var:0"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DeleteElementDescription" name="edge">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <containerView name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:Unset" featureName="name" elementExpression="var:element"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DeleteElementDescription" name="delete">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <containerView name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:RemoveElement"/>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+        <toolSections name="links">
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="viewServtoaggreserv_aggreServtoviewServ" edgeMappings="//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@edgeMappings[name='viewServtoaggreserv_aggreServtoviewServ']" iconPath="/my.project_sirius.design/section icons/viewtoagg.png">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:source">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="replicateServices" valueExpression="var:target"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="Agg_to_model" forceRefresh="true" edgeMappings="//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@edgeMappings[name='AggregateTomodel']" iconPath="/my.project_sirius.design/section icons/agg_to_model.png">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:source">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="models" valueExpression="var:target"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedJavaExtensions qualifiedClassName="my.project_sirius.design.Services"/>
+  </ownedViewpoints>
+</description:Group>
