@@ -1,0 +1,1448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:micro="http://it.univa.disim.micro" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis xmi:id="_lPt2sIOPEeiD4tUs782l_A" selectedViews="_SlQ20IOcEeiD4tUs782l_A" version="12.1.0.201708031200">
+    <semanticResources>Microarch_model.micro</semanticResources>
+    <semanticResources>file:/C:/Users/YKT/Downloads/ObeoDesigner-Community-10.1-win32.win32.x86_64/ObeoDesigner-Community/workspace/org.eclipse.microservices/model/microArch.ecore</semanticResources>
+    <semanticResources>http://www.eclipse.org/emf/2002/Ecore</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" xmi:id="_SlQ20IOcEeiD4tUs782l_A">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_KAE70IoBEeiR1Zgea3uS6A" name="new micro_diagram" repPath="#_J_tIYIoBEeiR1Zgea3uS6A">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']"/>
+        <target xmi:type="micro:MicroserviceArchitecture" href="Microarch_model.micro#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram xmi:id="_KAEUwIoBEeiR1Zgea3uS6A" name="new micro_diagram" uid="_J_tIYIoBEeiR1Zgea3uS6A">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_KAEUwYoBEeiR1Zgea3uS6A" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_KAEUwooBEeiR1Zgea3uS6A"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_KAE70YoBEeiR1Zgea3uS6A" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_KAE70ooBEeiR1Zgea3uS6A" type="Sirius" element="_KAEUwIoBEeiR1Zgea3uS6A" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_KAE71IoBEeiR1Zgea3uS6A" type="2002" element="_KAEUxIoBEeiR1Zgea3uS6A">
+          <children xmi:type="notation:Node" xmi:id="_KAFi4IoBEeiR1Zgea3uS6A" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_KAFi4YoBEeiR1Zgea3uS6A" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_KAGxA4oBEeiR1Zgea3uS6A" type="3008" element="_KAEUxooBEeiR1Zgea3uS6A">
+              <children xmi:type="notation:Node" xmi:id="_KAGxBooBEeiR1Zgea3uS6A" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_KAGxB4oBEeiR1Zgea3uS6A" type="7002">
+                <children xmi:type="notation:Node" xmi:id="_KAHYFIoBEeiR1Zgea3uS6A" type="3008" element="_KAEUyIoBEeiR1Zgea3uS6A">
+                  <children xmi:type="notation:Node" xmi:id="_KAHYF4oBEeiR1Zgea3uS6A" type="5005"/>
+                  <children xmi:type="notation:Node" xmi:id="_KAHYGIoBEeiR1Zgea3uS6A" type="7002">
+                    <children xmi:type="notation:Node" xmi:id="_KAHYG4oBEeiR1Zgea3uS6A" type="3007" element="_KAEUyooBEeiR1Zgea3uS6A">
+                      <children xmi:type="notation:Node" xmi:id="_KAHYHooBEeiR1Zgea3uS6A" type="5003">
+                        <layoutConstraint xmi:type="notation:Location" xmi:id="_KAHYH4oBEeiR1Zgea3uS6A" y="5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_KAImMooBEeiR1Zgea3uS6A" type="3003" element="_KAEUy4oBEeiR1Zgea3uS6A">
+                        <styles xmi:type="notation:ShapeStyle" xmi:id="_KAImM4oBEeiR1Zgea3uS6A" fontName="Segoe UI"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KAImNIoBEeiR1Zgea3uS6A"/>
+                      </children>
+                      <styles xmi:type="notation:ShapeStyle" xmi:id="_KAHYHIoBEeiR1Zgea3uS6A" fontName="Segoe UI" fontHeight="12" bold="true"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KAHYHYoBEeiR1Zgea3uS6A" x="31" y="30" width="80" height="80"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_KAHYIIoBEeiR1Zgea3uS6A" type="3007" element="_KAEUzIoBEeiR1Zgea3uS6A">
+                      <children xmi:type="notation:Node" xmi:id="_KAH_IIoBEeiR1Zgea3uS6A" type="5003">
+                        <layoutConstraint xmi:type="notation:Location" xmi:id="_KAH_IYoBEeiR1Zgea3uS6A" y="5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_KAImNYoBEeiR1Zgea3uS6A" type="3003" element="_KAEUzYoBEeiR1Zgea3uS6A">
+                        <styles xmi:type="notation:ShapeStyle" xmi:id="_KAImNooBEeiR1Zgea3uS6A" fontName="Segoe UI"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KAImN4oBEeiR1Zgea3uS6A"/>
+                      </children>
+                      <styles xmi:type="notation:ShapeStyle" xmi:id="_KAHYIYoBEeiR1Zgea3uS6A" fontName="Segoe UI" fontHeight="12" bold="true"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KAHYIooBEeiR1Zgea3uS6A" x="139" y="30" width="80" height="80"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_KAH_IooBEeiR1Zgea3uS6A" type="3007" element="_KAEUzooBEeiR1Zgea3uS6A">
+                      <children xmi:type="notation:Node" xmi:id="_KAH_JYoBEeiR1Zgea3uS6A" type="5003">
+                        <layoutConstraint xmi:type="notation:Location" xmi:id="_KAH_JooBEeiR1Zgea3uS6A" y="5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_KAImOIoBEeiR1Zgea3uS6A" type="3003" element="_KAEUz4oBEeiR1Zgea3uS6A">
+                        <styles xmi:type="notation:ShapeStyle" xmi:id="_KAImOYoBEeiR1Zgea3uS6A" fontName="Segoe UI"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KAImOooBEeiR1Zgea3uS6A"/>
+                      </children>
+                      <styles xmi:type="notation:ShapeStyle" xmi:id="_KAH_I4oBEeiR1Zgea3uS6A" fontName="Segoe UI" fontHeight="12" bold="true"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KAH_JIoBEeiR1Zgea3uS6A" x="283" y="30" width="80" height="80"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_KAH_J4oBEeiR1Zgea3uS6A" type="3007" element="_KAEU0IoBEeiR1Zgea3uS6A">
+                      <children xmi:type="notation:Node" xmi:id="_KAH_KooBEeiR1Zgea3uS6A" type="5003">
+                        <layoutConstraint xmi:type="notation:Location" xmi:id="_KAH_K4oBEeiR1Zgea3uS6A" y="5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_KAImO4oBEeiR1Zgea3uS6A" type="3003" element="_KAEU0YoBEeiR1Zgea3uS6A">
+                        <styles xmi:type="notation:ShapeStyle" xmi:id="_KAImPIoBEeiR1Zgea3uS6A" fontName="Segoe UI"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KAImPYoBEeiR1Zgea3uS6A"/>
+                      </children>
+                      <styles xmi:type="notation:ShapeStyle" xmi:id="_KAH_KIoBEeiR1Zgea3uS6A" fontName="Segoe UI" fontHeight="12" bold="true"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KAH_KYoBEeiR1Zgea3uS6A" x="415" y="30" width="80" height="80"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_KAH_LIoBEeiR1Zgea3uS6A" type="3007" element="_KAEU0ooBEeiR1Zgea3uS6A">
+                      <children xmi:type="notation:Node" xmi:id="_KAImMIoBEeiR1Zgea3uS6A" type="5003">
+                        <layoutConstraint xmi:type="notation:Location" xmi:id="_KAImMYoBEeiR1Zgea3uS6A" y="5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_KAImPooBEeiR1Zgea3uS6A" type="3003" element="_KAEU04oBEeiR1Zgea3uS6A">
+                        <styles xmi:type="notation:ShapeStyle" xmi:id="_KAImP4oBEeiR1Zgea3uS6A" fontName="Segoe UI"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KAImQIoBEeiR1Zgea3uS6A"/>
+                      </children>
+                      <styles xmi:type="notation:ShapeStyle" xmi:id="_KAH_LYoBEeiR1Zgea3uS6A" fontName="Segoe UI" fontHeight="16"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KAH_LooBEeiR1Zgea3uS6A" x="523" y="30" width="80" height="80"/>
+                    </children>
+                    <styles xmi:type="notation:SortingStyle" xmi:id="_KAHYGYoBEeiR1Zgea3uS6A"/>
+                    <styles xmi:type="notation:FilteringStyle" xmi:id="_KAHYGooBEeiR1Zgea3uS6A"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_KAHYFYoBEeiR1Zgea3uS6A" fontName="Segoe UI" fontHeight="16" bold="true"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KAHYFooBEeiR1Zgea3uS6A" x="31" y="30"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_KAGxCIoBEeiR1Zgea3uS6A"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_KAGxCYoBEeiR1Zgea3uS6A"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_KAGxBIoBEeiR1Zgea3uS6A" fontName="Segoe UI" fontHeight="16" bold="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KAGxBYoBEeiR1Zgea3uS6A" x="31" y="30"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_KAGxCooBEeiR1Zgea3uS6A" type="3008" element="_KAEU1IoBEeiR1Zgea3uS6A">
+              <children xmi:type="notation:Node" xmi:id="_KAGxDYoBEeiR1Zgea3uS6A" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_KAGxDooBEeiR1Zgea3uS6A" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_KAGxD4oBEeiR1Zgea3uS6A"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_KAGxEIoBEeiR1Zgea3uS6A"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_KAGxC4oBEeiR1Zgea3uS6A" fontName="Segoe UI" fontHeight="16" bold="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KAGxDIoBEeiR1Zgea3uS6A" x="763" y="30"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_KAGxEYoBEeiR1Zgea3uS6A" type="3008" element="_KAEU1ooBEeiR1Zgea3uS6A">
+              <children xmi:type="notation:Node" xmi:id="_KAGxFIoBEeiR1Zgea3uS6A" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_KAGxFYoBEeiR1Zgea3uS6A" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_KAGxFooBEeiR1Zgea3uS6A"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_KAGxF4oBEeiR1Zgea3uS6A"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_KAGxEooBEeiR1Zgea3uS6A" fontName="Segoe UI" fontHeight="16" bold="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KAGxE4oBEeiR1Zgea3uS6A" x="979" y="30"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_KAGxGIoBEeiR1Zgea3uS6A" type="3008" element="_KAEU2IoBEeiR1Zgea3uS6A">
+              <children xmi:type="notation:Node" xmi:id="_KAHYEIoBEeiR1Zgea3uS6A" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_KAHYEYoBEeiR1Zgea3uS6A" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_KAHYEooBEeiR1Zgea3uS6A"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_KAHYE4oBEeiR1Zgea3uS6A"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_KAGxGYoBEeiR1Zgea3uS6A" fontName="Segoe UI" fontHeight="16" bold="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KAGxGooBEeiR1Zgea3uS6A" x="1219" y="30"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_jnAXoI9wEeiiUMuZPqXnwA" type="3008" element="_jmuDwI9wEeiiUMuZPqXnwA">
+              <children xmi:type="notation:Node" xmi:id="_jnAXo49wEeiiUMuZPqXnwA" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_jnAXpI9wEeiiUMuZPqXnwA" type="7002">
+                <children xmi:type="notation:Node" xmi:id="_kYCzAI9wEeiiUMuZPqXnwA" type="3007" element="_kXuC4I9wEeiiUMuZPqXnwA">
+                  <children xmi:type="notation:Node" xmi:id="_kYCzA49wEeiiUMuZPqXnwA" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_kYCzBI9wEeiiUMuZPqXnwA" y="5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_kYCzBY9wEeiiUMuZPqXnwA" type="3003" element="_kXuC4Y9wEeiiUMuZPqXnwA">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_kYCzBo9wEeiiUMuZPqXnwA" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kYCzB49wEeiiUMuZPqXnwA"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_kYCzAY9wEeiiUMuZPqXnwA" fontName="Segoe UI" fontHeight="12" bold="true"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kYCzAo9wEeiiUMuZPqXnwA" x="199" y="30" width="85" height="81"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_qpRggI9wEeiiUMuZPqXnwA" type="3007" element="_qo6UII9wEeiiUMuZPqXnwA">
+                  <children xmi:type="notation:Node" xmi:id="_qpRgg49wEeiiUMuZPqXnwA" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_qpRghI9wEeiiUMuZPqXnwA" y="5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_qpRghY9wEeiiUMuZPqXnwA" type="3003" element="_qpEFII9wEeiiUMuZPqXnwA">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_qpRgho9wEeiiUMuZPqXnwA" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qpRgh49wEeiiUMuZPqXnwA"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_qpRggY9wEeiiUMuZPqXnwA" fontName="Segoe UI" fontHeight="12" bold="true"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qpRggo9wEeiiUMuZPqXnwA" x="415" y="-24" width="109" height="49"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_tYxMoI9wEeiiUMuZPqXnwA" type="3007" element="_tYh8EI9wEeiiUMuZPqXnwA">
+                  <children xmi:type="notation:Node" xmi:id="_tYxMo49wEeiiUMuZPqXnwA" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_tYxMpI9wEeiiUMuZPqXnwA" y="5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_tYxMpY9wEeiiUMuZPqXnwA" type="3003" element="_tYh8EY9wEeiiUMuZPqXnwA">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_tYxMpo9wEeiiUMuZPqXnwA" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tYxMp49wEeiiUMuZPqXnwA"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_tYxMoY9wEeiiUMuZPqXnwA" fontName="Segoe UI" fontHeight="12" bold="true"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tYxMoo9wEeiiUMuZPqXnwA" x="415" y="36" width="109" height="37"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_ZxJa4I9yEeiiUMuZPqXnwA" type="3007" element="_Zw_p4I9yEeiiUMuZPqXnwA">
+                  <children xmi:type="notation:Node" xmi:id="_ZxJa449yEeiiUMuZPqXnwA" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_ZxJa5I9yEeiiUMuZPqXnwA" y="5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_ZxJa749yEeiiUMuZPqXnwA" type="3003" element="_Zw_p4Y9yEeiiUMuZPqXnwA">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_ZxJa8I9yEeiiUMuZPqXnwA" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZxJa8Y9yEeiiUMuZPqXnwA"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_ZxJa4Y9yEeiiUMuZPqXnwA" fontName="Segoe UI" fontHeight="12" bold="true"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZxJa4o9yEeiiUMuZPqXnwA" x="7" y="30" width="80" height="80"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_ZxJa5Y9yEeiiUMuZPqXnwA" type="3007" element="_Zw_p4o9yEeiiUMuZPqXnwA">
+                  <children xmi:type="notation:Node" xmi:id="_ZxJa6I9yEeiiUMuZPqXnwA" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_ZxJa6Y9yEeiiUMuZPqXnwA" y="5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_ZxJa8o9yEeiiUMuZPqXnwA" type="3003" element="_Zw_p449yEeiiUMuZPqXnwA">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_ZxJa849yEeiiUMuZPqXnwA" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZxJa9I9yEeiiUMuZPqXnwA"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_ZxJa5o9yEeiiUMuZPqXnwA" fontName="Segoe UI" fontHeight="12" bold="true"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZxJa549yEeiiUMuZPqXnwA" x="103" y="30" width="80" height="80"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_ZxJa6o9yEeiiUMuZPqXnwA" type="3007" element="_Zw_p5I9yEeiiUMuZPqXnwA">
+                  <children xmi:type="notation:Node" xmi:id="_ZxJa7Y9yEeiiUMuZPqXnwA" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_ZxJa7o9yEeiiUMuZPqXnwA" y="5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_ZxJa9Y9yEeiiUMuZPqXnwA" type="3003" element="_Zw_p5Y9yEeiiUMuZPqXnwA">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_ZxJa9o9yEeiiUMuZPqXnwA" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZxJa949yEeiiUMuZPqXnwA"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_ZxJa649yEeiiUMuZPqXnwA" fontName="Segoe UI" fontHeight="12" bold="true"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZxJa7I9yEeiiUMuZPqXnwA" x="307" y="31" width="80" height="80"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_jnAXpY9wEeiiUMuZPqXnwA"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_jnAXpo9wEeiiUMuZPqXnwA"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_jnAXoY9wEeiiUMuZPqXnwA" fontName="Segoe UI" fontHeight="16" bold="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jnAXoo9wEeiiUMuZPqXnwA" x="775" y="126" width="591" height="171"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_KAFi4ooBEeiR1Zgea3uS6A"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_KAFi44oBEeiR1Zgea3uS6A"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_KAE71YoBEeiR1Zgea3uS6A" fontName="Segoe UI" fontHeight="16" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KAE71ooBEeiR1Zgea3uS6A" x="588" y="852" width="1443" height="315"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_KAFi5IoBEeiR1Zgea3uS6A" type="2002" element="_KAEU2ooBEeiR1Zgea3uS6A">
+          <children xmi:type="notation:Node" xmi:id="_KAFi54oBEeiR1Zgea3uS6A" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_KAFi6IoBEeiR1Zgea3uS6A" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_KAImQYoBEeiR1Zgea3uS6A" type="3008" element="_KAEU3IoBEeiR1Zgea3uS6A">
+              <children xmi:type="notation:Node" xmi:id="_KAJNQIoBEeiR1Zgea3uS6A" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_KAJNQYoBEeiR1Zgea3uS6A" type="7002">
+                <children xmi:type="notation:Node" xmi:id="_KAJ0UIoBEeiR1Zgea3uS6A" type="3007" element="_KAEU3ooBEeiR1Zgea3uS6A">
+                  <children xmi:type="notation:Node" xmi:id="_KAJ0U4oBEeiR1Zgea3uS6A" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_KAJ0VIoBEeiR1Zgea3uS6A" y="5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_KAKbbIoBEeiR1Zgea3uS6A" type="3003" element="_KAEU34oBEeiR1Zgea3uS6A">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_KAKbbYoBEeiR1Zgea3uS6A" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KAKbbooBEeiR1Zgea3uS6A"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_KAJ0UYoBEeiR1Zgea3uS6A" fontName="Segoe UI" fontHeight="12" bold="true"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KAJ0UooBEeiR1Zgea3uS6A" x="31" y="30" width="80" height="80"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_KAJ0VYoBEeiR1Zgea3uS6A" type="3007" element="_KAEU4IoBEeiR1Zgea3uS6A">
+                  <children xmi:type="notation:Node" xmi:id="_KAJ0WIoBEeiR1Zgea3uS6A" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_KAJ0WYoBEeiR1Zgea3uS6A" y="5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_KAKbb4oBEeiR1Zgea3uS6A" type="3003" element="_KAEU4YoBEeiR1Zgea3uS6A">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_KAKbcIoBEeiR1Zgea3uS6A" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KAKbcYoBEeiR1Zgea3uS6A"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_KAJ0VooBEeiR1Zgea3uS6A" fontName="Segoe UI" fontHeight="12" bold="true"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KAJ0V4oBEeiR1Zgea3uS6A" x="139" y="30" width="80" height="80"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_KAJ0WooBEeiR1Zgea3uS6A" type="3007" element="_KAEU4ooBEeiR1Zgea3uS6A">
+                  <children xmi:type="notation:Node" xmi:id="_KAJ0XYoBEeiR1Zgea3uS6A" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_KAJ0XooBEeiR1Zgea3uS6A" y="5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_KALCcIoBEeiR1Zgea3uS6A" type="3003" element="_KAEU44oBEeiR1Zgea3uS6A">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_KALCcYoBEeiR1Zgea3uS6A" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KALCcooBEeiR1Zgea3uS6A"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_KAJ0W4oBEeiR1Zgea3uS6A" fontName="Segoe UI" fontHeight="12" bold="true"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KAJ0XIoBEeiR1Zgea3uS6A" x="283" y="30" width="80" height="80"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_KAJ0X4oBEeiR1Zgea3uS6A" type="3007" element="_KAEU5IoBEeiR1Zgea3uS6A">
+                  <children xmi:type="notation:Node" xmi:id="_KAKbYIoBEeiR1Zgea3uS6A" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_KAKbYYoBEeiR1Zgea3uS6A" y="5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_KALCc4oBEeiR1Zgea3uS6A" type="3003" element="_KAEU5YoBEeiR1Zgea3uS6A">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_KALCdIoBEeiR1Zgea3uS6A" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KALCdYoBEeiR1Zgea3uS6A"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_KAJ0YIoBEeiR1Zgea3uS6A" fontName="Segoe UI" fontHeight="12" bold="true"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KAJ0YYoBEeiR1Zgea3uS6A" x="415" y="30" width="80" height="80"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_KAKbYooBEeiR1Zgea3uS6A" type="3007" element="_KAEU5ooBEeiR1Zgea3uS6A">
+                  <children xmi:type="notation:Node" xmi:id="_KAKbZYoBEeiR1Zgea3uS6A" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_KAKbZooBEeiR1Zgea3uS6A" y="5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_KALCdooBEeiR1Zgea3uS6A" type="3003" element="_KAEU54oBEeiR1Zgea3uS6A">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_KALCd4oBEeiR1Zgea3uS6A" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KALCeIoBEeiR1Zgea3uS6A"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_KAKbY4oBEeiR1Zgea3uS6A" fontName="Segoe UI" fontHeight="12" bold="true"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KAKbZIoBEeiR1Zgea3uS6A" x="559" y="30" width="80" height="80"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_KAKbZ4oBEeiR1Zgea3uS6A" type="3007" element="_KAEU6IoBEeiR1Zgea3uS6A">
+                  <children xmi:type="notation:Node" xmi:id="_KAKbaooBEeiR1Zgea3uS6A" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_KAKba4oBEeiR1Zgea3uS6A" y="5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_KALCeYoBEeiR1Zgea3uS6A" type="3003" element="_KAEU6YoBEeiR1Zgea3uS6A">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_KALCeooBEeiR1Zgea3uS6A" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KALCe4oBEeiR1Zgea3uS6A"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_KAKbaIoBEeiR1Zgea3uS6A" fontName="Segoe UI" fontHeight="12" bold="true"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KAKbaYoBEeiR1Zgea3uS6A" x="703" y="30" width="80" height="80"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_KAJNQooBEeiR1Zgea3uS6A"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_KAJNQ4oBEeiR1Zgea3uS6A"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_KAImQooBEeiR1Zgea3uS6A" fontName="Segoe UI" fontHeight="16" bold="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KAImQ4oBEeiR1Zgea3uS6A" x="31" y="30"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_KAJNRIoBEeiR1Zgea3uS6A" type="3008" element="_KAEU6ooBEeiR1Zgea3uS6A">
+              <children xmi:type="notation:Node" xmi:id="_KAJNR4oBEeiR1Zgea3uS6A" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_KAJNSIoBEeiR1Zgea3uS6A" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_KAJNSYoBEeiR1Zgea3uS6A"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_KAJNSooBEeiR1Zgea3uS6A"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_KAJNRYoBEeiR1Zgea3uS6A" fontName="Segoe UI" fontHeight="16" bold="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KAJNRooBEeiR1Zgea3uS6A" x="871" y="30" width="171" height="99"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_KAJNS4oBEeiR1Zgea3uS6A" type="3008" element="_KAEU7IoBEeiR1Zgea3uS6A">
+              <children xmi:type="notation:Node" xmi:id="_KAJNTooBEeiR1Zgea3uS6A" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_KAJNT4oBEeiR1Zgea3uS6A" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_KAJNUIoBEeiR1Zgea3uS6A"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_KAJNUYoBEeiR1Zgea3uS6A"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_KAJNTIoBEeiR1Zgea3uS6A" fontName="Segoe UI" fontHeight="16" bold="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KAJNTYoBEeiR1Zgea3uS6A" x="1087" y="30"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_KAJNUooBEeiR1Zgea3uS6A" type="3008" element="_KAEU7ooBEeiR1Zgea3uS6A">
+              <children xmi:type="notation:Node" xmi:id="_KAJNVYoBEeiR1Zgea3uS6A" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_KAJNVooBEeiR1Zgea3uS6A" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_KAJNV4oBEeiR1Zgea3uS6A"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_KAJNWIoBEeiR1Zgea3uS6A"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_KAJNU4oBEeiR1Zgea3uS6A" fontName="Segoe UI" fontHeight="16" bold="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KAJNVIoBEeiR1Zgea3uS6A" x="1291" y="30"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_KAFi6YoBEeiR1Zgea3uS6A"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_KAFi6ooBEeiR1Zgea3uS6A"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_KAFi5YoBEeiR1Zgea3uS6A" fontName="Segoe UI" fontHeight="16" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KAFi5ooBEeiR1Zgea3uS6A" x="2088" y="852"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_KAFi64oBEeiR1Zgea3uS6A" type="2002" element="_KAEU8IoBEeiR1Zgea3uS6A">
+          <children xmi:type="notation:Node" xmi:id="_KAFi7ooBEeiR1Zgea3uS6A" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_KAFi74oBEeiR1Zgea3uS6A" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_KALCfIoBEeiR1Zgea3uS6A" type="3008" element="_KAEU8ooBEeiR1Zgea3uS6A">
+              <children xmi:type="notation:Node" xmi:id="_KALCf4oBEeiR1Zgea3uS6A" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_KALCgIoBEeiR1Zgea3uS6A" type="7002">
+                <children xmi:type="notation:Node" xmi:id="_KAMQm4oBEeiR1Zgea3uS6A" type="3007" element="_KAEU9IoBEeiR1Zgea3uS6A">
+                  <children xmi:type="notation:Node" xmi:id="_KAMQnooBEeiR1Zgea3uS6A" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_KAMQn4oBEeiR1Zgea3uS6A" y="5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_KAhAt4oBEeiR1Zgea3uS6A" type="3003" element="_KAEU9YoBEeiR1Zgea3uS6A">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_KAhAuIoBEeiR1Zgea3uS6A" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KAhAuYoBEeiR1Zgea3uS6A"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_KAMQnIoBEeiR1Zgea3uS6A" fontName="Segoe UI" fontHeight="12" bold="true"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KAMQnYoBEeiR1Zgea3uS6A" x="31" y="30" width="80" height="80"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_KAMQoIoBEeiR1Zgea3uS6A" type="3007" element="_KAEU9ooBEeiR1Zgea3uS6A">
+                  <children xmi:type="notation:Node" xmi:id="_KAMQo4oBEeiR1Zgea3uS6A" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_KAMQpIoBEeiR1Zgea3uS6A" y="5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_KAhAuooBEeiR1Zgea3uS6A" type="3003" element="_KAEU94oBEeiR1Zgea3uS6A">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_KAhAu4oBEeiR1Zgea3uS6A" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KAhAvIoBEeiR1Zgea3uS6A"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_KAMQoYoBEeiR1Zgea3uS6A" fontName="Segoe UI" fontHeight="12" bold="true"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KAMQoooBEeiR1Zgea3uS6A" x="139" y="30" width="80" height="80"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_KAMQpYoBEeiR1Zgea3uS6A" type="3007" element="_KAEU-IoBEeiR1Zgea3uS6A">
+                  <children xmi:type="notation:Node" xmi:id="_KAM3oIoBEeiR1Zgea3uS6A" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_KAM3oYoBEeiR1Zgea3uS6A" y="5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_KAhAvYoBEeiR1Zgea3uS6A" type="3003" element="_KAEU-YoBEeiR1Zgea3uS6A">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_KAhAvooBEeiR1Zgea3uS6A" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KAhAv4oBEeiR1Zgea3uS6A"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_KAMQpooBEeiR1Zgea3uS6A" fontName="Segoe UI" fontHeight="12" bold="true"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KAMQp4oBEeiR1Zgea3uS6A" x="283" y="30" width="80" height="80"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_KAM3oooBEeiR1Zgea3uS6A" type="3007" element="_KAEU-ooBEeiR1Zgea3uS6A">
+                  <children xmi:type="notation:Node" xmi:id="_KAM3pYoBEeiR1Zgea3uS6A" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_KAM3pooBEeiR1Zgea3uS6A" y="5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_KAhAwIoBEeiR1Zgea3uS6A" type="3003" element="_KAEU-4oBEeiR1Zgea3uS6A">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_KAhAwYoBEeiR1Zgea3uS6A" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KAhAwooBEeiR1Zgea3uS6A"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_KAM3o4oBEeiR1Zgea3uS6A" fontName="Segoe UI" fontHeight="12" bold="true"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KAM3pIoBEeiR1Zgea3uS6A" x="415" y="30" width="80" height="80"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_KAM3p4oBEeiR1Zgea3uS6A" type="3007" element="_KAEU_IoBEeiR1Zgea3uS6A">
+                  <children xmi:type="notation:Node" xmi:id="_KAM3qooBEeiR1Zgea3uS6A" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_KAM3q4oBEeiR1Zgea3uS6A" y="5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_KAhnwIoBEeiR1Zgea3uS6A" type="3003" element="_KAEU_YoBEeiR1Zgea3uS6A">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_KAhnwYoBEeiR1Zgea3uS6A" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KAhnwooBEeiR1Zgea3uS6A"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_KAM3qIoBEeiR1Zgea3uS6A" fontName="Segoe UI" fontHeight="12" bold="true"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KAM3qYoBEeiR1Zgea3uS6A" x="559" y="30" width="80" height="80"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_KAM3rIoBEeiR1Zgea3uS6A" type="3007" element="_KAEU_ooBEeiR1Zgea3uS6A">
+                  <children xmi:type="notation:Node" xmi:id="_KAM3r4oBEeiR1Zgea3uS6A" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_KAM3sIoBEeiR1Zgea3uS6A" y="5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_KAhnw4oBEeiR1Zgea3uS6A" type="3003" element="_KAEU_4oBEeiR1Zgea3uS6A">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_KAhnxIoBEeiR1Zgea3uS6A" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KAhnxYoBEeiR1Zgea3uS6A"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_KAM3rYoBEeiR1Zgea3uS6A" fontName="Segoe UI" fontHeight="12" bold="true"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KAM3rooBEeiR1Zgea3uS6A" x="703" y="30" width="80" height="80"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_KAM3sYoBEeiR1Zgea3uS6A" type="3007" element="_KAEVAIoBEeiR1Zgea3uS6A">
+                  <children xmi:type="notation:Node" xmi:id="_KAM3tIoBEeiR1Zgea3uS6A" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_KAM3tYoBEeiR1Zgea3uS6A" y="5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_KAhnxooBEeiR1Zgea3uS6A" type="3003" element="_KAEVAYoBEeiR1Zgea3uS6A">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_KAhnx4oBEeiR1Zgea3uS6A" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KAhnyIoBEeiR1Zgea3uS6A"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_KAM3sooBEeiR1Zgea3uS6A" fontName="Segoe UI" fontHeight="12" bold="true"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KAM3s4oBEeiR1Zgea3uS6A" x="835" y="30" width="80" height="80"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_KAM3tooBEeiR1Zgea3uS6A" type="3007" element="_KAEVAooBEeiR1Zgea3uS6A">
+                  <children xmi:type="notation:Node" xmi:id="_KAgZoIoBEeiR1Zgea3uS6A" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_KAgZoYoBEeiR1Zgea3uS6A" y="5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_KAhnyYoBEeiR1Zgea3uS6A" type="3003" element="_KAEVA4oBEeiR1Zgea3uS6A">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_KAhnyooBEeiR1Zgea3uS6A" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KAhny4oBEeiR1Zgea3uS6A"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_KAM3t4oBEeiR1Zgea3uS6A" fontName="Segoe UI" fontHeight="12" bold="true"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KAM3uIoBEeiR1Zgea3uS6A" x="979" y="30" width="80" height="80"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_KAgZoooBEeiR1Zgea3uS6A" type="3007" element="_KAEVBIoBEeiR1Zgea3uS6A">
+                  <children xmi:type="notation:Node" xmi:id="_KAhAsIoBEeiR1Zgea3uS6A" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_KAhAsYoBEeiR1Zgea3uS6A" y="5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_KAhnzIoBEeiR1Zgea3uS6A" type="3003" element="_KAEVBYoBEeiR1Zgea3uS6A">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_KAhnzYoBEeiR1Zgea3uS6A" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KAhnzooBEeiR1Zgea3uS6A"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_KAgZo4oBEeiR1Zgea3uS6A" fontName="Segoe UI" fontHeight="12" bold="true"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KAgZpIoBEeiR1Zgea3uS6A" x="1123" y="30" width="80" height="80"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_KAhAsooBEeiR1Zgea3uS6A" type="3007" element="_KAEVBooBEeiR1Zgea3uS6A">
+                  <children xmi:type="notation:Node" xmi:id="_KAhAtYoBEeiR1Zgea3uS6A" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_KAhAtooBEeiR1Zgea3uS6A" y="5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_KAhnz4oBEeiR1Zgea3uS6A" type="3003" element="_KAEVB4oBEeiR1Zgea3uS6A">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_KAhn0IoBEeiR1Zgea3uS6A" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KAhn0YoBEeiR1Zgea3uS6A"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_KAhAs4oBEeiR1Zgea3uS6A" fontName="Segoe UI" fontHeight="12" bold="true"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KAhAtIoBEeiR1Zgea3uS6A" x="1255" y="30" width="80" height="80"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_KALCgYoBEeiR1Zgea3uS6A"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_KALCgooBEeiR1Zgea3uS6A"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_KALCfYoBEeiR1Zgea3uS6A" fontName="Segoe UI" fontHeight="16" bold="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KALCfooBEeiR1Zgea3uS6A" x="34" y="30"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_KALCg4oBEeiR1Zgea3uS6A" type="3008" element="_KAEVCIoBEeiR1Zgea3uS6A">
+              <children xmi:type="notation:Node" xmi:id="_KALChooBEeiR1Zgea3uS6A" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_KALCh4oBEeiR1Zgea3uS6A" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_KALCiIoBEeiR1Zgea3uS6A"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_KALCiYoBEeiR1Zgea3uS6A"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_KALChIoBEeiR1Zgea3uS6A" fontName="Segoe UI" fontHeight="16" bold="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KALChYoBEeiR1Zgea3uS6A" x="1426" y="30"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_KALCiooBEeiR1Zgea3uS6A" type="3008" element="_KAEVCooBEeiR1Zgea3uS6A">
+              <children xmi:type="notation:Node" xmi:id="_KALCjYoBEeiR1Zgea3uS6A" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_KALCjooBEeiR1Zgea3uS6A" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_KALCj4oBEeiR1Zgea3uS6A"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_KALCkIoBEeiR1Zgea3uS6A"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_KALCi4oBEeiR1Zgea3uS6A" fontName="Segoe UI" fontHeight="16" bold="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KALCjIoBEeiR1Zgea3uS6A" x="1642" y="30"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_KALCkYoBEeiR1Zgea3uS6A" type="3008" element="_KAEVDIoBEeiR1Zgea3uS6A">
+              <children xmi:type="notation:Node" xmi:id="_KALpgIoBEeiR1Zgea3uS6A" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_KALpgYoBEeiR1Zgea3uS6A" type="7002">
+                <children xmi:type="notation:Node" xmi:id="_KAhn0ooBEeiR1Zgea3uS6A" type="3008" element="_KAEVDooBEeiR1Zgea3uS6A">
+                  <children xmi:type="notation:Node" xmi:id="_KAhn1YoBEeiR1Zgea3uS6A" type="5005"/>
+                  <children xmi:type="notation:Node" xmi:id="_KAiO0IoBEeiR1Zgea3uS6A" type="7002">
+                    <children xmi:type="notation:Node" xmi:id="_KAiO04oBEeiR1Zgea3uS6A" type="3007" element="_KAEVEIoBEeiR1Zgea3uS6A">
+                      <children xmi:type="notation:Node" xmi:id="_KAiO1ooBEeiR1Zgea3uS6A" type="5003">
+                        <layoutConstraint xmi:type="notation:Location" xmi:id="_KAiO14oBEeiR1Zgea3uS6A" y="5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_KAi14ooBEeiR1Zgea3uS6A" type="3003" element="_KAEVEYoBEeiR1Zgea3uS6A">
+                        <styles xmi:type="notation:ShapeStyle" xmi:id="_KAi144oBEeiR1Zgea3uS6A" fontName="Segoe UI"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KAi15IoBEeiR1Zgea3uS6A"/>
+                      </children>
+                      <styles xmi:type="notation:ShapeStyle" xmi:id="_KAiO1IoBEeiR1Zgea3uS6A" fontName="Segoe UI" fontHeight="12" bold="true"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KAiO1YoBEeiR1Zgea3uS6A" x="31" y="30" width="80" height="80"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_KAiO2IoBEeiR1Zgea3uS6A" type="3007" element="_KAEVEooBEeiR1Zgea3uS6A">
+                      <children xmi:type="notation:Node" xmi:id="_KAiO24oBEeiR1Zgea3uS6A" type="5003">
+                        <layoutConstraint xmi:type="notation:Location" xmi:id="_KAiO3IoBEeiR1Zgea3uS6A" y="5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_KAi15YoBEeiR1Zgea3uS6A" type="3003" element="_KAEVE4oBEeiR1Zgea3uS6A">
+                        <styles xmi:type="notation:ShapeStyle" xmi:id="_KAi15ooBEeiR1Zgea3uS6A" fontName="Segoe UI"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KAi154oBEeiR1Zgea3uS6A"/>
+                      </children>
+                      <styles xmi:type="notation:ShapeStyle" xmi:id="_KAiO2YoBEeiR1Zgea3uS6A" fontName="Segoe UI" fontHeight="12" bold="true"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KAiO2ooBEeiR1Zgea3uS6A" x="139" y="30" width="80" height="80"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_KAiO3YoBEeiR1Zgea3uS6A" type="3007" element="_KAEVFIoBEeiR1Zgea3uS6A">
+                      <children xmi:type="notation:Node" xmi:id="_KAiO4IoBEeiR1Zgea3uS6A" type="5003">
+                        <layoutConstraint xmi:type="notation:Location" xmi:id="_KAiO4YoBEeiR1Zgea3uS6A" y="5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_KAi16IoBEeiR1Zgea3uS6A" type="3003" element="_KAEVFYoBEeiR1Zgea3uS6A">
+                        <styles xmi:type="notation:ShapeStyle" xmi:id="_KAi16YoBEeiR1Zgea3uS6A" fontName="Segoe UI"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KAi16ooBEeiR1Zgea3uS6A"/>
+                      </children>
+                      <styles xmi:type="notation:ShapeStyle" xmi:id="_KAiO3ooBEeiR1Zgea3uS6A" fontName="Segoe UI" fontHeight="12" bold="true"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KAiO34oBEeiR1Zgea3uS6A" x="283" y="30" width="80" height="80"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_KAiO4ooBEeiR1Zgea3uS6A" type="3007" element="_KAEVFooBEeiR1Zgea3uS6A">
+                      <children xmi:type="notation:Node" xmi:id="_KAi14IoBEeiR1Zgea3uS6A" type="5003">
+                        <layoutConstraint xmi:type="notation:Location" xmi:id="_KAi14YoBEeiR1Zgea3uS6A" y="5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_KAi164oBEeiR1Zgea3uS6A" type="3003" element="_KAEVF4oBEeiR1Zgea3uS6A">
+                        <styles xmi:type="notation:ShapeStyle" xmi:id="_KAi17IoBEeiR1Zgea3uS6A" fontName="Segoe UI"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KAi17YoBEeiR1Zgea3uS6A"/>
+                      </children>
+                      <styles xmi:type="notation:ShapeStyle" xmi:id="_KAiO44oBEeiR1Zgea3uS6A" fontName="Segoe UI" fontHeight="16"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KAiO5IoBEeiR1Zgea3uS6A" x="415" y="30" width="80" height="80"/>
+                    </children>
+                    <styles xmi:type="notation:SortingStyle" xmi:id="_KAiO0YoBEeiR1Zgea3uS6A"/>
+                    <styles xmi:type="notation:FilteringStyle" xmi:id="_KAiO0ooBEeiR1Zgea3uS6A"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_KAhn04oBEeiR1Zgea3uS6A" fontName="Segoe UI" fontHeight="16" bold="true"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KAhn1IoBEeiR1Zgea3uS6A" x="31" y="30"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_KALpgooBEeiR1Zgea3uS6A"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_KALpg4oBEeiR1Zgea3uS6A"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_KALCkooBEeiR1Zgea3uS6A" fontName="Segoe UI" fontHeight="16" bold="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KALCk4oBEeiR1Zgea3uS6A" x="1846" y="30"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_KALphIoBEeiR1Zgea3uS6A" type="3008" element="_KAEVGIoBEeiR1Zgea3uS6A">
+              <children xmi:type="notation:Node" xmi:id="_KALph4oBEeiR1Zgea3uS6A" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_KALpiIoBEeiR1Zgea3uS6A" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_KALpiYoBEeiR1Zgea3uS6A"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_KALpiooBEeiR1Zgea3uS6A"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_KALphYoBEeiR1Zgea3uS6A" fontName="Segoe UI" fontHeight="16" bold="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KALphooBEeiR1Zgea3uS6A" x="2470" y="30"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_KALpi4oBEeiR1Zgea3uS6A" type="3008" element="_KAEVGooBEeiR1Zgea3uS6A">
+              <children xmi:type="notation:Node" xmi:id="_KALpjooBEeiR1Zgea3uS6A" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_KALpj4oBEeiR1Zgea3uS6A" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_KALpkIoBEeiR1Zgea3uS6A"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_KALpkYoBEeiR1Zgea3uS6A"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_KALpjIoBEeiR1Zgea3uS6A" fontName="Segoe UI" fontHeight="16" bold="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KALpjYoBEeiR1Zgea3uS6A" x="2686" y="30"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_KALpkooBEeiR1Zgea3uS6A" type="3008" element="_KAEVHIoBEeiR1Zgea3uS6A">
+              <children xmi:type="notation:Node" xmi:id="_KALplYoBEeiR1Zgea3uS6A" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_KALplooBEeiR1Zgea3uS6A" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_KALpl4oBEeiR1Zgea3uS6A"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_KALpmIoBEeiR1Zgea3uS6A"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_KALpk4oBEeiR1Zgea3uS6A" fontName="Segoe UI" fontHeight="16" bold="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KALplIoBEeiR1Zgea3uS6A" x="2914" y="30"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_KALpmYoBEeiR1Zgea3uS6A" type="3008" element="_KAEVHooBEeiR1Zgea3uS6A">
+              <children xmi:type="notation:Node" xmi:id="_KAMQkIoBEeiR1Zgea3uS6A" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_KAMQkYoBEeiR1Zgea3uS6A" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_KAMQkooBEeiR1Zgea3uS6A"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_KAMQk4oBEeiR1Zgea3uS6A"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_KALpmooBEeiR1Zgea3uS6A" fontName="Segoe UI" fontHeight="16" bold="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KALpm4oBEeiR1Zgea3uS6A" x="3118" y="30"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_KAMQlIoBEeiR1Zgea3uS6A" type="3008" element="_KAEVIIoBEeiR1Zgea3uS6A">
+              <children xmi:type="notation:Node" xmi:id="_KAMQl4oBEeiR1Zgea3uS6A" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_KAMQmIoBEeiR1Zgea3uS6A" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_KAMQmYoBEeiR1Zgea3uS6A"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_KAMQmooBEeiR1Zgea3uS6A"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_KAMQlYoBEeiR1Zgea3uS6A" fontName="Segoe UI" fontHeight="16" bold="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KAMQlooBEeiR1Zgea3uS6A" x="3334" y="30"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_KAFi8IoBEeiR1Zgea3uS6A"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_KAFi8YoBEeiR1Zgea3uS6A"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_KAFi7IoBEeiR1Zgea3uS6A" fontName="Segoe UI" fontHeight="16" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KAFi7YoBEeiR1Zgea3uS6A" x="3612" y="840"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_KAGJ8IoBEeiR1Zgea3uS6A" type="2002" element="_KAEVIooBEeiR1Zgea3uS6A">
+          <children xmi:type="notation:Node" xmi:id="_KAGJ84oBEeiR1Zgea3uS6A" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_KAGJ9IoBEeiR1Zgea3uS6A" type="7001">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_KAGJ9YoBEeiR1Zgea3uS6A"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_KAGJ9ooBEeiR1Zgea3uS6A"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_KAGJ8YoBEeiR1Zgea3uS6A" fontColor="13606770" fontName="Segoe UI" fontHeight="16" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KAGJ8ooBEeiR1Zgea3uS6A" x="2856" y="2016" width="986" height="432"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_KAGJ94oBEeiR1Zgea3uS6A" type="2002" element="_KAEVJIoBEeiR1Zgea3uS6A">
+          <children xmi:type="notation:Node" xmi:id="_KAGJ-ooBEeiR1Zgea3uS6A" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_KAGJ-4oBEeiR1Zgea3uS6A" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_zmrHEI91EeiiUMuZPqXnwA" type="3007" element="_zmoq0I91EeiiUMuZPqXnwA">
+              <children xmi:type="notation:Node" xmi:id="_zmruII91EeiiUMuZPqXnwA" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_zmruIY91EeiiUMuZPqXnwA" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_zmruJ491EeiiUMuZPqXnwA" type="3003" element="_zmoq0Y91EeiiUMuZPqXnwA">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_zmruKI91EeiiUMuZPqXnwA" fontName="Segoe UI"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zmruKY91EeiiUMuZPqXnwA"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_zmrHEY91EeiiUMuZPqXnwA" fontName="Segoe UI" fontHeight="12" bold="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zmrHEo91EeiiUMuZPqXnwA" x="19" y="43" width="92" height="65"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_zmruIo91EeiiUMuZPqXnwA" type="3007" element="_zmpR4I91EeiiUMuZPqXnwA">
+              <children xmi:type="notation:Node" xmi:id="_zmruJY91EeiiUMuZPqXnwA" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_zmruJo91EeiiUMuZPqXnwA" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_zmsVMI91EeiiUMuZPqXnwA" type="3003" element="_zmpR4Y91EeiiUMuZPqXnwA">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_zmsVMY91EeiiUMuZPqXnwA" fontName="Segoe UI"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zmsVMo91EeiiUMuZPqXnwA"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_zmruI491EeiiUMuZPqXnwA" fontName="Segoe UI" fontHeight="12" bold="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zmruJI91EeiiUMuZPqXnwA" x="151" y="43" width="84" height="66"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_KAGJ_IoBEeiR1Zgea3uS6A"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_KAGJ_YoBEeiR1Zgea3uS6A"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_KAGJ-IoBEeiR1Zgea3uS6A" fontName="Segoe UI" fontHeight="25" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KAGJ-YoBEeiR1Zgea3uS6A" x="1176" y="349" width="279"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_KAGJ_ooBEeiR1Zgea3uS6A" type="2002" element="_KAEVJooBEeiR1Zgea3uS6A">
+          <children xmi:type="notation:Node" xmi:id="_KAGKAYoBEeiR1Zgea3uS6A" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_KAGKAooBEeiR1Zgea3uS6A" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_d9QSII92EeiiUMuZPqXnwA" type="3007" element="_d9Er8I92EeiiUMuZPqXnwA">
+              <children xmi:type="notation:Node" xmi:id="_d9Q5MI92EeiiUMuZPqXnwA" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_d9Q5MY92EeiiUMuZPqXnwA" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_d9RgQI92EeiiUMuZPqXnwA" type="3003" element="_d9Er8Y92EeiiUMuZPqXnwA">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_d9RgQY92EeiiUMuZPqXnwA" fontName="Segoe UI"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_d9RgQo92EeiiUMuZPqXnwA"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_d9QSIY92EeiiUMuZPqXnwA" fontName="Segoe UI" fontHeight="12" bold="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_d9QSIo92EeiiUMuZPqXnwA" x="181" y="66" width="84" height="48"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_euTUkI92EeiiUMuZPqXnwA" type="3007" element="_euIVcI92EeiiUMuZPqXnwA">
+              <children xmi:type="notation:Node" xmi:id="_euTUk492EeiiUMuZPqXnwA" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_euTUlI92EeiiUMuZPqXnwA" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_euT7oI92EeiiUMuZPqXnwA" type="3003" element="_euIVcY92EeiiUMuZPqXnwA">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_euT7oY92EeiiUMuZPqXnwA" fontName="Segoe UI"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_euT7oo92EeiiUMuZPqXnwA"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_euTUkY92EeiiUMuZPqXnwA" fontName="Segoe UI" fontHeight="12" bold="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_euTUko92EeiiUMuZPqXnwA" x="25" y="66" width="96" height="60"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_KAGKA4oBEeiR1Zgea3uS6A"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_KAGKBIoBEeiR1Zgea3uS6A"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_KAGJ_4oBEeiR1Zgea3uS6A" fontName="Segoe UI" fontHeight="25" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KAGKAIoBEeiR1Zgea3uS6A" x="2670" y="348" width="304"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_KAGKBYoBEeiR1Zgea3uS6A" type="2002" element="_KAEVKIoBEeiR1Zgea3uS6A">
+          <children xmi:type="notation:Node" xmi:id="_KAGKCIoBEeiR1Zgea3uS6A" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_KAGxAIoBEeiR1Zgea3uS6A" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_0hbCoI92EeiiUMuZPqXnwA" type="3007" element="_0hPccI92EeiiUMuZPqXnwA">
+              <children xmi:type="notation:Node" xmi:id="_0hbCo492EeiiUMuZPqXnwA" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_0hbCpI92EeiiUMuZPqXnwA" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_0hbpsI92EeiiUMuZPqXnwA" type="3003" element="_0hPccY92EeiiUMuZPqXnwA">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_0hbpsY92EeiiUMuZPqXnwA" fontName="Segoe UI"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0hbpso92EeiiUMuZPqXnwA"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_0hbCoY92EeiiUMuZPqXnwA" fontName="Segoe UI" fontHeight="12" bold="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0hbCoo92EeiiUMuZPqXnwA" x="187" y="78" width="84" height="84"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_0_v9YI92EeiiUMuZPqXnwA" type="3007" element="_0_iiAI92EeiiUMuZPqXnwA">
+              <children xmi:type="notation:Node" xmi:id="_0_v9Y492EeiiUMuZPqXnwA" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_0_v9ZI92EeiiUMuZPqXnwA" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_0_v9ZY92EeiiUMuZPqXnwA" type="3003" element="_0_iiAY92EeiiUMuZPqXnwA">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_0_v9Zo92EeiiUMuZPqXnwA" fontName="Segoe UI"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0_v9Z492EeiiUMuZPqXnwA"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_0_v9YY92EeiiUMuZPqXnwA" fontName="Segoe UI" fontHeight="12" bold="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0_v9Yo92EeiiUMuZPqXnwA" x="31" y="78" width="96" height="84"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_KAGxAYoBEeiR1Zgea3uS6A"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_KAGxAooBEeiR1Zgea3uS6A"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_KAGKBooBEeiR1Zgea3uS6A" fontName="Segoe UI" fontHeight="25" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KAGKB4oBEeiR1Zgea3uS6A" x="5136" y="348" width="300" height="194"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_KAE704oBEeiR1Zgea3uS6A"/>
+        <edges xmi:type="notation:Edge" xmi:id="_KAjc8IoBEeiR1Zgea3uS6A" type="4001" element="_KAEVKooBEeiR1Zgea3uS6A" source="_KAGJ8IoBEeiR1Zgea3uS6A" target="_KAE71IoBEeiR1Zgea3uS6A">
+          <children xmi:type="notation:Node" xmi:id="_KAjc9IoBEeiR1Zgea3uS6A" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KAjc9YoBEeiR1Zgea3uS6A" x="4" y="-6"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_KAjc9ooBEeiR1Zgea3uS6A" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KAjc94oBEeiR1Zgea3uS6A" x="19" y="13"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_KAjc-IoBEeiR1Zgea3uS6A" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KAjc-YoBEeiR1Zgea3uS6A" x="12" y="13"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_KAjc8YoBEeiR1Zgea3uS6A"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_KAjc8ooBEeiR1Zgea3uS6A" fontColor="13606770" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_KAjc84oBEeiR1Zgea3uS6A" points="[-29, -4, 1919, 954]$[-1948, -958, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KAjc-ooBEeiR1Zgea3uS6A" id="(0.3894523326572008,0.009259259259259259)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KAjc-4oBEeiR1Zgea3uS6A" id="(0.4883280741763917,0.8639744952178533)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_KAjc_IoBEeiR1Zgea3uS6A" type="4001" element="_KAEVLYoBEeiR1Zgea3uS6A" source="_KAGJ8IoBEeiR1Zgea3uS6A" target="_KAFi5IoBEeiR1Zgea3uS6A">
+          <children xmi:type="notation:Node" xmi:id="_KAkEA4oBEeiR1Zgea3uS6A" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KAkEBIoBEeiR1Zgea3uS6A" x="33" y="-2"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_KAkEBYoBEeiR1Zgea3uS6A" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KAkEBooBEeiR1Zgea3uS6A" x="5" y="1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_KAkEB4oBEeiR1Zgea3uS6A" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KAkECIoBEeiR1Zgea3uS6A" x="1"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_KAkEAIoBEeiR1Zgea3uS6A"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_KAkEAYoBEeiR1Zgea3uS6A" fontColor="13606770" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_KAkEAooBEeiR1Zgea3uS6A" points="[-10, -4, 484, 998]$[-494, -1002, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KAkECYoBEeiR1Zgea3uS6A" id="(0.45841784989858014,0.009259259259259259)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KAkECooBEeiR1Zgea3uS6A" id="(0.5003487943684204,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_KAkEC4oBEeiR1Zgea3uS6A" type="4001" element="_KAEVMIoBEeiR1Zgea3uS6A" source="_KAGJ8IoBEeiR1Zgea3uS6A" target="_KAFi64oBEeiR1Zgea3uS6A">
+          <children xmi:type="notation:Node" xmi:id="_KAkED4oBEeiR1Zgea3uS6A" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KAkEEIoBEeiR1Zgea3uS6A" y="-14"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_KAkEEYoBEeiR1Zgea3uS6A" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KAkEEooBEeiR1Zgea3uS6A" x="-6" y="3"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_KAkEE4oBEeiR1Zgea3uS6A" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KAkEFIoBEeiR1Zgea3uS6A" x="-8" y="4"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_KAkEDIoBEeiR1Zgea3uS6A"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_KAkEDYoBEeiR1Zgea3uS6A" fontColor="13606770" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_KAkEDooBEeiR1Zgea3uS6A" points="[24, -8, -2018, 966]$[2042, -974, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KAkEFYoBEeiR1Zgea3uS6A" id="(0.5030425963488844,0.018518518518518517)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KAkEFooBEeiR1Zgea3uS6A" id="(0.5001410377032424,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_JyJkcI6qEeisiuX5jhVH3w" type="4001" element="_Jw9RoI6qEeisiuX5jhVH3w" source="_KAE71IoBEeiR1Zgea3uS6A" target="_KAGJ94oBEeiR1Zgea3uS6A">
+          <children xmi:type="notation:Node" xmi:id="_JycfYI6qEeisiuX5jhVH3w" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JycfYY6qEeisiuX5jhVH3w" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_JymQYI6qEeisiuX5jhVH3w" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JymQYY6qEeisiuX5jhVH3w" x="3" y="7"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_JymQYo6qEeisiuX5jhVH3w" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JymQY46qEeisiuX5jhVH3w" x="3" y="9"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_JyJkcY6qEeisiuX5jhVH3w"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_JyJkco6qEeisiuX5jhVH3w" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_JyJkc46qEeisiuX5jhVH3w" points="[1, -105, -5, 429]$[5, -460, -1, 74]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Jy5LUI6qEeisiuX5jhVH3w" id="(0.4879768786127167,0.43198724760892665)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Jy5LUY6qEeisiuX5jhVH3w" id="(0.4377766712311714,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_Jy5LUo6qEeisiuX5jhVH3w" type="4001" element="_JxGbko6qEeisiuX5jhVH3w" source="_KAFi5IoBEeiR1Zgea3uS6A" target="_KAGJ_ooBEeiR1Zgea3uS6A">
+          <children xmi:type="notation:Node" xmi:id="_Jy5LVo6qEeisiuX5jhVH3w" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Jy5LV46qEeisiuX5jhVH3w" x="14" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Jy5LWI6qEeisiuX5jhVH3w" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Jy5LWY6qEeisiuX5jhVH3w" x="-7" y="7"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Jy5LWo6qEeisiuX5jhVH3w" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Jy5LW46qEeisiuX5jhVH3w" x="-8" y="9"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_Jy5LU46qEeisiuX5jhVH3w"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_Jy5LVI6qEeisiuX5jhVH3w" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Jy5LVY6qEeisiuX5jhVH3w" points="[1, -83, -6, 429]$[5, -437, -2, 75]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Jy5LXI6qEeisiuX5jhVH3w" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Jy5LXY6qEeisiuX5jhVH3w" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_Jy5LXo6qEeisiuX5jhVH3w" type="4001" element="_JxGblY6qEeisiuX5jhVH3w" source="_KAFi64oBEeiR1Zgea3uS6A" target="_KAGKBYoBEeiR1Zgea3uS6A">
+          <children xmi:type="notation:Node" xmi:id="_Jy5LYo6qEeisiuX5jhVH3w" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Jy5LY46qEeisiuX5jhVH3w" x="16" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Jy5LZI6qEeisiuX5jhVH3w" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Jy5LZY6qEeisiuX5jhVH3w" x="-6" y="8"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Jy5LZo6qEeisiuX5jhVH3w" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Jy5LZ46qEeisiuX5jhVH3w" x="-5" y="8"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_Jy5LX46qEeisiuX5jhVH3w"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_Jy5LYI6qEeisiuX5jhVH3w" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Jy5LYY6qEeisiuX5jhVH3w" points="[-23, -105, 86, 396]$[-89, -405, 20, 96]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Jy5LaI6qEeisiuX5jhVH3w" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Jy5LaY6qEeisiuX5jhVH3w" id="(0.5,0.5)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_KAEUxIoBEeiR1Zgea3uS6A" name="customer-service" outgoingEdges="_Jw9RoI6qEeisiuX5jhVH3w" incomingEdges="_KAEVKooBEeiR1Zgea3uS6A" width="10" height="10">
+      <target xmi:type="micro:AggregateService" href="Microarch_model.micro#//@services.0"/>
+      <semanticElements xmi:type="micro:AggregateService" href="Microarch_model.micro#//@services.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_KAEUxYoBEeiR1Zgea3uS6A" labelSize="16" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="GradientTopToBottom" backgroundColor="239,41,41" foregroundColor="204,242,166">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']"/>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_KAEUxooBEeiR1Zgea3uS6A" name="createcustomer">
+        <target xmi:type="micro:Operation" href="Microarch_model.micro#//@services.0/@operation.0"/>
+        <semanticElements xmi:type="micro:Operation" href="Microarch_model.micro#//@services.0/@operation.0"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_KAEUx4oBEeiR1Zgea3uS6A" labelSize="16" borderSize="1" borderSizeComputationExpression="1">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='Operation']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='Operation']"/>
+        <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_KAEUyIoBEeiR1Zgea3uS6A" name="createorder">
+          <target xmi:type="micro:Saga" href="Microarch_model.micro#//@services.0/@operation.0/@Saga"/>
+          <semanticElements xmi:type="micro:Saga" href="Microarch_model.micro#//@services.0/@operation.0/@Saga"/>
+          <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_KAEUyYoBEeiR1Zgea3uS6A" labelSize="16" borderSize="1" borderSizeComputationExpression="1" foregroundColor="224,133,3">
+            <labelFormat>bold</labelFormat>
+            <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='Operation']/@subContainerMappings[name='saga']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='Operation']/@subContainerMappings[name='saga']"/>
+          <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_KAEUyooBEeiR1Zgea3uS6A" name="compensateOrder" width="8" height="8" resizeKind="NSEW">
+            <target xmi:type="micro:Step" href="Microarch_model.micro#//@services.0/@operation.0/@Saga/@Steps.0"/>
+            <semanticElements xmi:type="micro:Step" href="Microarch_model.micro#//@services.0/@operation.0/@Saga/@Steps.0"/>
+            <ownedStyle xmi:type="diagram:Square" xmi:id="_KAEUy4oBEeiR1Zgea3uS6A" labelSize="12" labelPosition="node" width="8" height="8" color="239,41,41">
+              <labelFormat>bold</labelFormat>
+              <description xmi:type="style:SquareDescription" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='Operation']/@subContainerMappings[name='saga']/@subNodeMappings[name='Step']/@style"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='Operation']/@subContainerMappings[name='saga']/@subNodeMappings[name='Step']"/>
+          </ownedDiagramElements>
+          <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_KAEUzIoBEeiR1Zgea3uS6A" name="validateCustomer" width="8" height="8" resizeKind="NSEW">
+            <target xmi:type="micro:Step" href="Microarch_model.micro#//@services.0/@operation.0/@Saga/@Steps.1"/>
+            <semanticElements xmi:type="micro:Step" href="Microarch_model.micro#//@services.0/@operation.0/@Saga/@Steps.1"/>
+            <ownedStyle xmi:type="diagram:Square" xmi:id="_KAEUzYoBEeiR1Zgea3uS6A" labelSize="12" labelPosition="node" width="8" height="8" color="239,41,41">
+              <labelFormat>bold</labelFormat>
+              <description xmi:type="style:SquareDescription" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='Operation']/@subContainerMappings[name='saga']/@subNodeMappings[name='Step']/@style"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='Operation']/@subContainerMappings[name='saga']/@subNodeMappings[name='Step']"/>
+          </ownedDiagramElements>
+          <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_KAEUzooBEeiR1Zgea3uS6A" name="requestInvoice" width="8" height="8" resizeKind="NSEW">
+            <target xmi:type="micro:Step" href="Microarch_model.micro#//@services.0/@operation.0/@Saga/@Steps.2"/>
+            <semanticElements xmi:type="micro:Step" href="Microarch_model.micro#//@services.0/@operation.0/@Saga/@Steps.2"/>
+            <ownedStyle xmi:type="diagram:Square" xmi:id="_KAEUz4oBEeiR1Zgea3uS6A" labelSize="12" labelPosition="node" width="8" height="8" color="239,41,41">
+              <labelFormat>bold</labelFormat>
+              <description xmi:type="style:SquareDescription" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='Operation']/@subContainerMappings[name='saga']/@subNodeMappings[name='Step']/@style"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='Operation']/@subContainerMappings[name='saga']/@subNodeMappings[name='Step']"/>
+          </ownedDiagramElements>
+          <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_KAEU0IoBEeiR1Zgea3uS6A" name="completeOrder" width="8" height="8" resizeKind="NSEW">
+            <target xmi:type="micro:Step" href="Microarch_model.micro#//@services.0/@operation.0/@Saga/@Steps.3"/>
+            <semanticElements xmi:type="micro:Step" href="Microarch_model.micro#//@services.0/@operation.0/@Saga/@Steps.3"/>
+            <ownedStyle xmi:type="diagram:Square" xmi:id="_KAEU0YoBEeiR1Zgea3uS6A" labelSize="12" labelPosition="node" width="8" height="8" color="239,41,41">
+              <labelFormat>bold</labelFormat>
+              <description xmi:type="style:SquareDescription" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='Operation']/@subContainerMappings[name='saga']/@subNodeMappings[name='Step']/@style"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='Operation']/@subContainerMappings[name='saga']/@subNodeMappings[name='Step']"/>
+          </ownedDiagramElements>
+          <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_KAEU0ooBEeiR1Zgea3uS6A" name="CreateOrder" width="8" height="8" resizeKind="NSEW">
+            <target xmi:type="micro:Data" href="Microarch_model.micro#//@services.0/@operation.0/@Saga/@Data"/>
+            <semanticElements xmi:type="micro:Data" href="Microarch_model.micro#//@services.0/@operation.0/@Saga/@Data"/>
+            <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+            <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+            <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+            <ownedStyle xmi:type="diagram:Square" xmi:id="_KAEU04oBEeiR1Zgea3uS6A" labelSize="12" labelPosition="node" width="8" height="8" color="138,226,52">
+              <labelFormat>bold</labelFormat>
+              <description xmi:type="style:SquareDescription" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='Operation']/@subContainerMappings[name='saga']/@subNodeMappings[name='Data']/@style"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='Operation']/@subContainerMappings[name='saga']/@subNodeMappings[name='Data']"/>
+          </ownedDiagramElements>
+        </ownedDiagramElements>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_KAEU1IoBEeiR1Zgea3uS6A" name="findcustomer">
+        <target xmi:type="micro:Operation" href="Microarch_model.micro#//@services.0/@operation.1"/>
+        <semanticElements xmi:type="micro:Operation" href="Microarch_model.micro#//@services.0/@operation.1"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_KAEU1YoBEeiR1Zgea3uS6A" labelSize="16" borderSize="1" borderSizeComputationExpression="1">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='Operation']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='Operation']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_KAEU1ooBEeiR1Zgea3uS6A" name="updateCustomer">
+        <target xmi:type="micro:Operation" href="Microarch_model.micro#//@services.0/@operation.2"/>
+        <semanticElements xmi:type="micro:Operation" href="Microarch_model.micro#//@services.0/@operation.2"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_KAEU14oBEeiR1Zgea3uS6A" labelSize="16" borderSize="1" borderSizeComputationExpression="1">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='Operation']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='Operation']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_KAEU2IoBEeiR1Zgea3uS6A" name="deleteCustomer">
+        <target xmi:type="micro:Operation" href="Microarch_model.micro#//@services.0/@operation.3"/>
+        <semanticElements xmi:type="micro:Operation" href="Microarch_model.micro#//@services.0/@operation.3"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_KAEU2YoBEeiR1Zgea3uS6A" labelSize="16" borderSize="1" borderSizeComputationExpression="1">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='Operation']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='Operation']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_jmuDwI9wEeiiUMuZPqXnwA" name="API_customer">
+        <target xmi:type="micro:API" href="Microarch_model.micro#//@services.0/@api"/>
+        <semanticElements xmi:type="micro:API" href="Microarch_model.micro#//@services.0/@api"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_jmuDwY9wEeiiUMuZPqXnwA" labelSize="16" borderSize="1" borderSizeComputationExpression="1" backgroundColor="204,242,166">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='API']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='API']"/>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_kXuC4I9wEeiiUMuZPqXnwA" name="createcustomer" width="8" height="8" resizeKind="NSEW">
+          <target xmi:type="micro:Event" href="Microarch_model.micro#//@services.0/@api/@events.0"/>
+          <semanticElements xmi:type="micro:Event" href="Microarch_model.micro#//@services.0/@api/@events.0"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_kXuC4Y9wEeiiUMuZPqXnwA" labelSize="12" labelPosition="node" width="8" height="8">
+            <labelFormat>bold</labelFormat>
+            <description xmi:type="style:SquareDescription" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='API']/@subNodeMappings[name='events']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='API']/@subNodeMappings[name='events']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_Zw_p4I9yEeiiUMuZPqXnwA" name="findcustomer" width="8" height="8" resizeKind="NSEW">
+          <target xmi:type="micro:Event" href="Microarch_model.micro#//@services.0/@api/@events.1"/>
+          <semanticElements xmi:type="micro:Event" href="Microarch_model.micro#//@services.0/@api/@events.1"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_Zw_p4Y9yEeiiUMuZPqXnwA" labelSize="12" labelPosition="node" width="8" height="8">
+            <labelFormat>bold</labelFormat>
+            <description xmi:type="style:SquareDescription" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='API']/@subNodeMappings[name='events']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='API']/@subNodeMappings[name='events']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_Zw_p4o9yEeiiUMuZPqXnwA" name="updatecustomer" width="8" height="8" resizeKind="NSEW">
+          <target xmi:type="micro:Event" href="Microarch_model.micro#//@services.0/@api/@events.2"/>
+          <semanticElements xmi:type="micro:Event" href="Microarch_model.micro#//@services.0/@api/@events.2"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_Zw_p449yEeiiUMuZPqXnwA" labelSize="12" labelPosition="node" width="8" height="8">
+            <labelFormat>bold</labelFormat>
+            <description xmi:type="style:SquareDescription" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='API']/@subNodeMappings[name='events']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='API']/@subNodeMappings[name='events']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_Zw_p5I9yEeiiUMuZPqXnwA" name="deletecustomer" width="8" height="8" resizeKind="NSEW">
+          <target xmi:type="micro:Event" href="Microarch_model.micro#//@services.0/@api/@events.3"/>
+          <semanticElements xmi:type="micro:Event" href="Microarch_model.micro#//@services.0/@api/@events.3"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_Zw_p5Y9yEeiiUMuZPqXnwA" labelSize="12" labelPosition="node" width="8" height="8">
+            <labelFormat>bold</labelFormat>
+            <description xmi:type="style:SquareDescription" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='API']/@subNodeMappings[name='events']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='API']/@subNodeMappings[name='events']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_qo6UII9wEeiiUMuZPqXnwA" name="info_customer" width="8" height="8" resizeKind="NSEW">
+          <target xmi:type="micro:Info" href="Microarch_model.micro#//@services.0/@api/@infos.0"/>
+          <semanticElements xmi:type="micro:Info" href="Microarch_model.micro#//@services.0/@api/@infos.0"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_qpEFII9wEeiiUMuZPqXnwA" labelSize="12" labelPosition="node" width="8" height="8" color="252,233,79">
+            <labelFormat>bold</labelFormat>
+            <description xmi:type="style:SquareDescription" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='API']/@subNodeMappings[name='Info']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='API']/@subNodeMappings[name='Info']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_tYh8EI9wEeiiUMuZPqXnwA" name="command_customer" width="8" height="8" resizeKind="NSEW">
+          <target xmi:type="micro:Command" href="Microarch_model.micro#//@services.0/@api/@commands.0"/>
+          <semanticElements xmi:type="micro:Command" href="Microarch_model.micro#//@services.0/@api/@commands.0"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_tYh8EY9wEeiiUMuZPqXnwA" labelSize="12" labelPosition="node" width="8" height="8" color="194,239,255">
+            <labelFormat>bold</labelFormat>
+            <description xmi:type="style:SquareDescription" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='API']/@subNodeMappings[name='command']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='API']/@subNodeMappings[name='command']"/>
+        </ownedDiagramElements>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_KAEU2ooBEeiR1Zgea3uS6A" name="invoice-service" outgoingEdges="_JxGbko6qEeisiuX5jhVH3w" incomingEdges="_KAEVLYoBEeiR1Zgea3uS6A" width="10" height="10">
+      <target xmi:type="micro:AggregateService" href="Microarch_model.micro#//@services.1"/>
+      <semanticElements xmi:type="micro:AggregateService" href="Microarch_model.micro#//@services.1"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_KAEU24oBEeiR1Zgea3uS6A" labelSize="16" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="GradientTopToBottom" backgroundColor="239,41,41" foregroundColor="204,242,166">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']"/>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_KAEU3IoBEeiR1Zgea3uS6A" name="API_invoice">
+        <target xmi:type="micro:API" href="Microarch_model.micro#//@services.1/@api"/>
+        <semanticElements xmi:type="micro:API" href="Microarch_model.micro#//@services.1/@api"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_KAEU3YoBEeiR1Zgea3uS6A" labelSize="16" borderSize="1" borderSizeComputationExpression="1" backgroundColor="204,242,166">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='API']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='API']"/>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_KAEU3ooBEeiR1Zgea3uS6A" name="InvoiceCreatedEvent" width="8" height="8" resizeKind="NSEW">
+          <target xmi:type="micro:Event" href="Microarch_model.micro#//@services.1/@api/@events.0"/>
+          <semanticElements xmi:type="micro:Event" href="Microarch_model.micro#//@services.1/@api/@events.0"/>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_KAEU34oBEeiR1Zgea3uS6A" labelSize="12" labelPosition="node" width="8" height="8">
+            <labelFormat>bold</labelFormat>
+            <description xmi:type="style:SquareDescription" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='API']/@subNodeMappings[name='events']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='API']/@subNodeMappings[name='events']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_KAEU4IoBEeiR1Zgea3uS6A" name="InvoiceCreationFailedEvent" width="8" height="8" resizeKind="NSEW">
+          <target xmi:type="micro:Event" href="Microarch_model.micro#//@services.1/@api/@events.1"/>
+          <semanticElements xmi:type="micro:Event" href="Microarch_model.micro#//@services.1/@api/@events.1"/>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_KAEU4YoBEeiR1Zgea3uS6A" labelSize="12" labelPosition="node" width="8" height="8">
+            <labelFormat>bold</labelFormat>
+            <description xmi:type="style:SquareDescription" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='API']/@subNodeMappings[name='events']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='API']/@subNodeMappings[name='events']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_KAEU4ooBEeiR1Zgea3uS6A" name="RequestInvoiceCommand" width="8" height="8" resizeKind="NSEW">
+          <target xmi:type="micro:Command" href="Microarch_model.micro#//@services.1/@api/@commands.0"/>
+          <semanticElements xmi:type="micro:Command" href="Microarch_model.micro#//@services.1/@api/@commands.0"/>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_KAEU44oBEeiR1Zgea3uS6A" labelSize="12" labelPosition="node" width="8" height="8" color="194,239,255">
+            <labelFormat>bold</labelFormat>
+            <description xmi:type="style:SquareDescription" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='API']/@subNodeMappings[name='command']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='API']/@subNodeMappings[name='command']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_KAEU5IoBEeiR1Zgea3uS6A" name="CompensateInvoiceCommand" width="8" height="8" resizeKind="NSEW">
+          <target xmi:type="micro:Command" href="Microarch_model.micro#//@services.1/@api/@commands.1"/>
+          <semanticElements xmi:type="micro:Command" href="Microarch_model.micro#//@services.1/@api/@commands.1"/>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_KAEU5YoBEeiR1Zgea3uS6A" labelSize="12" labelPosition="node" width="8" height="8" color="194,239,255">
+            <labelFormat>bold</labelFormat>
+            <description xmi:type="style:SquareDescription" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='API']/@subNodeMappings[name='command']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='API']/@subNodeMappings[name='command']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_KAEU5ooBEeiR1Zgea3uS6A" name="ValidateInvoiceByOrderService" width="8" height="8" resizeKind="NSEW">
+          <target xmi:type="micro:Command" href="Microarch_model.micro#//@services.1/@api/@commands.2"/>
+          <semanticElements xmi:type="micro:Command" href="Microarch_model.micro#//@services.1/@api/@commands.2"/>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_KAEU54oBEeiR1Zgea3uS6A" labelSize="12" labelPosition="node" width="8" height="8" color="194,239,255">
+            <labelFormat>bold</labelFormat>
+            <description xmi:type="style:SquareDescription" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='API']/@subNodeMappings[name='command']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='API']/@subNodeMappings[name='command']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_KAEU6IoBEeiR1Zgea3uS6A" name="Invoice" width="8" height="8" resizeKind="NSEW">
+          <target xmi:type="micro:Info" href="Microarch_model.micro#//@services.1/@api/@infos.0"/>
+          <semanticElements xmi:type="micro:Info" href="Microarch_model.micro#//@services.1/@api/@infos.0"/>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_KAEU6YoBEeiR1Zgea3uS6A" labelSize="12" labelPosition="node" width="8" height="8" color="252,233,79">
+            <labelFormat>bold</labelFormat>
+            <description xmi:type="style:SquareDescription" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='API']/@subNodeMappings[name='Info']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='API']/@subNodeMappings[name='Info']"/>
+        </ownedDiagramElements>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_KAEU6ooBEeiR1Zgea3uS6A" name="createInvoice">
+        <target xmi:type="micro:Operation" href="Microarch_model.micro#//@services.1/@operation.0"/>
+        <semanticElements xmi:type="micro:Operation" href="Microarch_model.micro#//@services.1/@operation.0"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_KAEU64oBEeiR1Zgea3uS6A" labelSize="16" borderSize="1" borderSizeComputationExpression="1">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='Operation']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='Operation']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_KAEU7IoBEeiR1Zgea3uS6A" name="rejectInvoice">
+        <target xmi:type="micro:Operation" href="Microarch_model.micro#//@services.1/@operation.1"/>
+        <semanticElements xmi:type="micro:Operation" href="Microarch_model.micro#//@services.1/@operation.1"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_KAEU7YoBEeiR1Zgea3uS6A" labelSize="16" borderSize="1" borderSizeComputationExpression="1">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='Operation']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='Operation']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_KAEU7ooBEeiR1Zgea3uS6A" name="findInvoice">
+        <target xmi:type="micro:Operation" href="Microarch_model.micro#//@services.1/@operation.2"/>
+        <semanticElements xmi:type="micro:Operation" href="Microarch_model.micro#//@services.1/@operation.2"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_KAEU74oBEeiR1Zgea3uS6A" labelSize="16" borderSize="1" borderSizeComputationExpression="1">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='Operation']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='Operation']"/>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_KAEU8IoBEeiR1Zgea3uS6A" name="order-service" outgoingEdges="_JxGblY6qEeisiuX5jhVH3w" incomingEdges="_KAEVMIoBEeiR1Zgea3uS6A" width="10" height="10">
+      <target xmi:type="micro:AggregateService" href="Microarch_model.micro#//@services.2"/>
+      <semanticElements xmi:type="micro:AggregateService" href="Microarch_model.micro#//@services.2"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_KAEU8YoBEeiR1Zgea3uS6A" labelSize="16" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="GradientTopToBottom" backgroundColor="239,41,41" foregroundColor="204,242,166">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']"/>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_KAEU8ooBEeiR1Zgea3uS6A" name="API_order_service">
+        <target xmi:type="micro:API" href="Microarch_model.micro#//@services.2/@api"/>
+        <semanticElements xmi:type="micro:API" href="Microarch_model.micro#//@services.2/@api"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_KAEU84oBEeiR1Zgea3uS6A" labelSize="16" borderSize="1" borderSizeComputationExpression="1" backgroundColor="204,242,166">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='API']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='API']"/>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_KAEU9IoBEeiR1Zgea3uS6A" name="OrderCompletedEvent" width="8" height="8" resizeKind="NSEW">
+          <target xmi:type="micro:Event" href="Microarch_model.micro#//@services.2/@api/@events.0"/>
+          <semanticElements xmi:type="micro:Event" href="Microarch_model.micro#//@services.2/@api/@events.0"/>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_KAEU9YoBEeiR1Zgea3uS6A" labelSize="12" labelPosition="node" width="8" height="8">
+            <labelFormat>bold</labelFormat>
+            <description xmi:type="style:SquareDescription" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='API']/@subNodeMappings[name='events']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='API']/@subNodeMappings[name='events']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_KAEU9ooBEeiR1Zgea3uS6A" name="OrderCreatedEvent" width="8" height="8" resizeKind="NSEW">
+          <target xmi:type="micro:Event" href="Microarch_model.micro#//@services.2/@api/@events.1"/>
+          <semanticElements xmi:type="micro:Event" href="Microarch_model.micro#//@services.2/@api/@events.1"/>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_KAEU94oBEeiR1Zgea3uS6A" labelSize="12" labelPosition="node" width="8" height="8">
+            <labelFormat>bold</labelFormat>
+            <description xmi:type="style:SquareDescription" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='API']/@subNodeMappings[name='events']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='API']/@subNodeMappings[name='events']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_KAEU-IoBEeiR1Zgea3uS6A" name="OrderRejectedEvent" width="8" height="8" resizeKind="NSEW">
+          <target xmi:type="micro:Event" href="Microarch_model.micro#//@services.2/@api/@events.2"/>
+          <semanticElements xmi:type="micro:Event" href="Microarch_model.micro#//@services.2/@api/@events.2"/>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_KAEU-YoBEeiR1Zgea3uS6A" labelSize="12" labelPosition="node" width="8" height="8">
+            <labelFormat>bold</labelFormat>
+            <description xmi:type="style:SquareDescription" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='API']/@subNodeMappings[name='events']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='API']/@subNodeMappings[name='events']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_KAEU-ooBEeiR1Zgea3uS6A" name="OrderEditedEvent" width="8" height="8" resizeKind="NSEW">
+          <target xmi:type="micro:Event" href="Microarch_model.micro#//@services.2/@api/@events.3"/>
+          <semanticElements xmi:type="micro:Event" href="Microarch_model.micro#//@services.2/@api/@events.3"/>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_KAEU-4oBEeiR1Zgea3uS6A" labelSize="12" labelPosition="node" width="8" height="8">
+            <labelFormat>bold</labelFormat>
+            <description xmi:type="style:SquareDescription" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='API']/@subNodeMappings[name='events']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='API']/@subNodeMappings[name='events']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_KAEU_IoBEeiR1Zgea3uS6A" name="OrderDeletedEvent" width="8" height="8" resizeKind="NSEW">
+          <target xmi:type="micro:Event" href="Microarch_model.micro#//@services.2/@api/@events.4"/>
+          <semanticElements xmi:type="micro:Event" href="Microarch_model.micro#//@services.2/@api/@events.4"/>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_KAEU_YoBEeiR1Zgea3uS6A" labelSize="12" labelPosition="node" width="8" height="8">
+            <labelFormat>bold</labelFormat>
+            <description xmi:type="style:SquareDescription" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='API']/@subNodeMappings[name='events']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='API']/@subNodeMappings[name='events']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_KAEU_ooBEeiR1Zgea3uS6A" name="OrderUpdatedInvoiceEvent" width="8" height="8" resizeKind="NSEW">
+          <target xmi:type="micro:Event" href="Microarch_model.micro#//@services.2/@api/@events.5"/>
+          <semanticElements xmi:type="micro:Event" href="Microarch_model.micro#//@services.2/@api/@events.5"/>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_KAEU_4oBEeiR1Zgea3uS6A" labelSize="12" labelPosition="node" width="8" height="8">
+            <labelFormat>bold</labelFormat>
+            <description xmi:type="style:SquareDescription" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='API']/@subNodeMappings[name='events']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='API']/@subNodeMappings[name='events']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_KAEVAIoBEeiR1Zgea3uS6A" name="CompleteOrderCommand" width="8" height="8" resizeKind="NSEW">
+          <target xmi:type="micro:Command" href="Microarch_model.micro#//@services.2/@api/@commands.0"/>
+          <semanticElements xmi:type="micro:Command" href="Microarch_model.micro#//@services.2/@api/@commands.0"/>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_KAEVAYoBEeiR1Zgea3uS6A" labelSize="12" labelPosition="node" width="8" height="8" color="194,239,255">
+            <labelFormat>bold</labelFormat>
+            <description xmi:type="style:SquareDescription" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='API']/@subNodeMappings[name='command']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='API']/@subNodeMappings[name='command']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_KAEVAooBEeiR1Zgea3uS6A" name="RejectOrderCommand" width="8" height="8" resizeKind="NSEW">
+          <target xmi:type="micro:Command" href="Microarch_model.micro#//@services.2/@api/@commands.1"/>
+          <semanticElements xmi:type="micro:Command" href="Microarch_model.micro#//@services.2/@api/@commands.1"/>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_KAEVA4oBEeiR1Zgea3uS6A" labelSize="12" labelPosition="node" width="8" height="8" color="194,239,255">
+            <labelFormat>bold</labelFormat>
+            <description xmi:type="style:SquareDescription" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='API']/@subNodeMappings[name='command']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='API']/@subNodeMappings[name='command']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_KAEVBIoBEeiR1Zgea3uS6A" name="EditOrderCommand" width="8" height="8" resizeKind="NSEW">
+          <target xmi:type="micro:Command" href="Microarch_model.micro#//@services.2/@api/@commands.2"/>
+          <semanticElements xmi:type="micro:Command" href="Microarch_model.micro#//@services.2/@api/@commands.2"/>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_KAEVBYoBEeiR1Zgea3uS6A" labelSize="12" labelPosition="node" width="8" height="8" color="194,239,255">
+            <labelFormat>bold</labelFormat>
+            <description xmi:type="style:SquareDescription" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='API']/@subNodeMappings[name='command']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='API']/@subNodeMappings[name='command']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_KAEVBooBEeiR1Zgea3uS6A" name="Order" width="8" height="8" resizeKind="NSEW">
+          <target xmi:type="micro:Info" href="Microarch_model.micro#//@services.2/@api/@infos.0"/>
+          <semanticElements xmi:type="micro:Info" href="Microarch_model.micro#//@services.2/@api/@infos.0"/>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_KAEVB4oBEeiR1Zgea3uS6A" labelSize="12" labelPosition="node" width="8" height="8" color="252,233,79">
+            <labelFormat>bold</labelFormat>
+            <description xmi:type="style:SquareDescription" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='API']/@subNodeMappings[name='Info']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='API']/@subNodeMappings[name='Info']"/>
+        </ownedDiagramElements>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_KAEVCIoBEeiR1Zgea3uS6A" name="createOrder">
+        <target xmi:type="micro:Operation" href="Microarch_model.micro#//@services.2/@operation.0"/>
+        <semanticElements xmi:type="micro:Operation" href="Microarch_model.micro#//@services.2/@operation.0"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_KAEVCYoBEeiR1Zgea3uS6A" labelSize="16" borderSize="1" borderSizeComputationExpression="1">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='Operation']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='Operation']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_KAEVCooBEeiR1Zgea3uS6A" name="findOrder">
+        <target xmi:type="micro:Operation" href="Microarch_model.micro#//@services.2/@operation.1"/>
+        <semanticElements xmi:type="micro:Operation" href="Microarch_model.micro#//@services.2/@operation.1"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_KAEVC4oBEeiR1Zgea3uS6A" labelSize="16" borderSize="1" borderSizeComputationExpression="1">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='Operation']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='Operation']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_KAEVDIoBEeiR1Zgea3uS6A" name="updateOrder">
+        <target xmi:type="micro:Operation" href="Microarch_model.micro#//@services.2/@operation.2"/>
+        <semanticElements xmi:type="micro:Operation" href="Microarch_model.micro#//@services.2/@operation.2"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_KAEVDYoBEeiR1Zgea3uS6A" labelSize="16" borderSize="1" borderSizeComputationExpression="1">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='Operation']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='Operation']"/>
+        <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_KAEVDooBEeiR1Zgea3uS6A" name="UpdateOrder">
+          <target xmi:type="micro:Saga" href="Microarch_model.micro#//@services.2/@operation.2/@Saga"/>
+          <semanticElements xmi:type="micro:Saga" href="Microarch_model.micro#//@services.2/@operation.2/@Saga"/>
+          <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_KAEVD4oBEeiR1Zgea3uS6A" labelSize="16" borderSize="1" borderSizeComputationExpression="1" foregroundColor="224,133,3">
+            <labelFormat>bold</labelFormat>
+            <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='Operation']/@subContainerMappings[name='saga']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='Operation']/@subContainerMappings[name='saga']"/>
+          <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_KAEVEIoBEeiR1Zgea3uS6A" name="validateCustomer" width="8" height="8" resizeKind="NSEW">
+            <target xmi:type="micro:Step" href="Microarch_model.micro#//@services.2/@operation.2/@Saga/@Steps.0"/>
+            <semanticElements xmi:type="micro:Step" href="Microarch_model.micro#//@services.2/@operation.2/@Saga/@Steps.0"/>
+            <ownedStyle xmi:type="diagram:Square" xmi:id="_KAEVEYoBEeiR1Zgea3uS6A" labelSize="12" labelPosition="node" width="8" height="8" color="239,41,41">
+              <labelFormat>bold</labelFormat>
+              <description xmi:type="style:SquareDescription" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='Operation']/@subContainerMappings[name='saga']/@subNodeMappings[name='Step']/@style"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='Operation']/@subContainerMappings[name='saga']/@subNodeMappings[name='Step']"/>
+          </ownedDiagramElements>
+          <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_KAEVEooBEeiR1Zgea3uS6A" name="validateInvoice" width="8" height="8" resizeKind="NSEW">
+            <target xmi:type="micro:Step" href="Microarch_model.micro#//@services.2/@operation.2/@Saga/@Steps.1"/>
+            <semanticElements xmi:type="micro:Step" href="Microarch_model.micro#//@services.2/@operation.2/@Saga/@Steps.1"/>
+            <ownedStyle xmi:type="diagram:Square" xmi:id="_KAEVE4oBEeiR1Zgea3uS6A" labelSize="12" labelPosition="node" width="8" height="8" color="239,41,41">
+              <labelFormat>bold</labelFormat>
+              <description xmi:type="style:SquareDescription" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='Operation']/@subContainerMappings[name='saga']/@subNodeMappings[name='Step']/@style"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='Operation']/@subContainerMappings[name='saga']/@subNodeMappings[name='Step']"/>
+          </ownedDiagramElements>
+          <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_KAEVFIoBEeiR1Zgea3uS6A" name="editOrder" width="8" height="8" resizeKind="NSEW">
+            <target xmi:type="micro:Step" href="Microarch_model.micro#//@services.2/@operation.2/@Saga/@Steps.2"/>
+            <semanticElements xmi:type="micro:Step" href="Microarch_model.micro#//@services.2/@operation.2/@Saga/@Steps.2"/>
+            <ownedStyle xmi:type="diagram:Square" xmi:id="_KAEVFYoBEeiR1Zgea3uS6A" labelSize="12" labelPosition="node" width="8" height="8" color="239,41,41">
+              <labelFormat>bold</labelFormat>
+              <description xmi:type="style:SquareDescription" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='Operation']/@subContainerMappings[name='saga']/@subNodeMappings[name='Step']/@style"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='Operation']/@subContainerMappings[name='saga']/@subNodeMappings[name='Step']"/>
+          </ownedDiagramElements>
+          <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_KAEVFooBEeiR1Zgea3uS6A" name="UpdateOrder" width="8" height="8" resizeKind="NSEW">
+            <target xmi:type="micro:Data" href="Microarch_model.micro#//@services.2/@operation.2/@Saga/@Data"/>
+            <semanticElements xmi:type="micro:Data" href="Microarch_model.micro#//@services.2/@operation.2/@Saga/@Data"/>
+            <ownedStyle xmi:type="diagram:Square" xmi:id="_KAEVF4oBEeiR1Zgea3uS6A" labelSize="12" labelPosition="node" width="8" height="8" color="138,226,52">
+              <labelFormat>bold</labelFormat>
+              <description xmi:type="style:SquareDescription" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='Operation']/@subContainerMappings[name='saga']/@subNodeMappings[name='Data']/@style"/>
+            </ownedStyle>
+            <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='Operation']/@subContainerMappings[name='saga']/@subNodeMappings[name='Data']"/>
+          </ownedDiagramElements>
+        </ownedDiagramElements>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_KAEVGIoBEeiR1Zgea3uS6A" name="rejectOrder">
+        <target xmi:type="micro:Operation" href="Microarch_model.micro#//@services.2/@operation.3"/>
+        <semanticElements xmi:type="micro:Operation" href="Microarch_model.micro#//@services.2/@operation.3"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_KAEVGYoBEeiR1Zgea3uS6A" labelSize="16" borderSize="1" borderSizeComputationExpression="1">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='Operation']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='Operation']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_KAEVGooBEeiR1Zgea3uS6A" name="completeOrder">
+        <target xmi:type="micro:Operation" href="Microarch_model.micro#//@services.2/@operation.4"/>
+        <semanticElements xmi:type="micro:Operation" href="Microarch_model.micro#//@services.2/@operation.4"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_KAEVG4oBEeiR1Zgea3uS6A" labelSize="16" borderSize="1" borderSizeComputationExpression="1">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='Operation']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='Operation']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_KAEVHIoBEeiR1Zgea3uS6A" name="editOrder">
+        <target xmi:type="micro:Operation" href="Microarch_model.micro#//@services.2/@operation.5"/>
+        <semanticElements xmi:type="micro:Operation" href="Microarch_model.micro#//@services.2/@operation.5"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_KAEVHYoBEeiR1Zgea3uS6A" labelSize="16" borderSize="1" borderSizeComputationExpression="1">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='Operation']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='Operation']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_KAEVHooBEeiR1Zgea3uS6A" name="deleteOrder">
+        <target xmi:type="micro:Operation" href="Microarch_model.micro#//@services.2/@operation.6"/>
+        <semanticElements xmi:type="micro:Operation" href="Microarch_model.micro#//@services.2/@operation.6"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_KAEVH4oBEeiR1Zgea3uS6A" labelSize="16" borderSize="1" borderSizeComputationExpression="1">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='Operation']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='Operation']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_KAEVIIoBEeiR1Zgea3uS6A" name="updateInvoiceOrder">
+        <target xmi:type="micro:Operation" href="Microarch_model.micro#//@services.2/@operation.7"/>
+        <semanticElements xmi:type="micro:Operation" href="Microarch_model.micro#//@services.2/@operation.7"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_KAEVIYoBEeiR1Zgea3uS6A" labelSize="16" borderSize="1" borderSizeComputationExpression="1">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='Operation']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='aggregated_services']/@subContainerMappings[name='Operation']"/>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_KAEVIooBEeiR1Zgea3uS6A" name="viewService" outgoingEdges="_KAEVKooBEeiR1Zgea3uS6A _KAEVLYoBEeiR1Zgea3uS6A _KAEVMIoBEeiR1Zgea3uS6A">
+      <target xmi:type="micro:ViewService" href="Microarch_model.micro#//@services.3"/>
+      <semanticElements xmi:type="micro:ViewService" href="Microarch_model.micro#//@services.3"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_KAEVI4oBEeiR1Zgea3uS6A" labelSize="25" labelAlignment="RIGHT" workspacePath="/my.project_sirius.design/Icons/viewicon.svg">
+        <customFeatures>labelFormat</customFeatures>
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='viewservices']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='viewservices']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_KAEVJIoBEeiR1Zgea3uS6A" name="Customer" incomingEdges="_Jw9RoI6qEeisiuX5jhVH3w" width="15" height="15">
+      <target xmi:type="micro:Model" href="Microarch_model.micro#//@models.0"/>
+      <semanticElements xmi:type="micro:Model" href="Microarch_model.micro#//@models.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_KAEVJYoBEeiR1Zgea3uS6A" labelSize="25" borderSize="1" borderSizeComputationExpression="1" foregroundColor="114,73,110">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='Model']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='Model']"/>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_zmoq0I91EeiiUMuZPqXnwA" name="customer_name" width="8" height="8" resizeKind="NSEW">
+        <target xmi:type="micro:PrimitiveTypeAttribute" href="Microarch_model.micro#//@models.0/@attributes.1"/>
+        <semanticElements xmi:type="micro:PrimitiveTypeAttribute" href="Microarch_model.micro#//@models.0/@attributes.1"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_zmoq0Y91EeiiUMuZPqXnwA" labelSize="12" labelPosition="node" width="8" height="8" color="246,139,139">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:SquareDescription" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='Model']/@subNodeMappings[name='PrimitiveTypeAttribute']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='Model']/@subNodeMappings[name='PrimitiveTypeAttribute']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_zmpR4I91EeiiUMuZPqXnwA" name="Cust_id" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="micro:ReferenceAttribute" href="Microarch_model.micro#//@models.0/@attributes.0"/>
+        <semanticElements xmi:type="micro:ReferenceAttribute" href="Microarch_model.micro#//@models.0/@attributes.0"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_zmpR4Y91EeiiUMuZPqXnwA" labelSize="12" labelPosition="node" color="233,185,110">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:SquareDescription" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='Model']/@subNodeMappings[name='ReferenceAttribute']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='Model']/@subNodeMappings[name='ReferenceAttribute']"/>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_KAEVJooBEeiR1Zgea3uS6A" name="invoice" incomingEdges="_JxGbko6qEeisiuX5jhVH3w" width="15" height="15">
+      <target xmi:type="micro:Model" href="Microarch_model.micro#//@models.1"/>
+      <semanticElements xmi:type="micro:Model" href="Microarch_model.micro#//@models.1"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_KAEVJ4oBEeiR1Zgea3uS6A" labelSize="25" borderSize="1" borderSizeComputationExpression="1" foregroundColor="114,73,110">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='Model']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='Model']"/>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_d9Er8I92EeiiUMuZPqXnwA" name="invoice_id" width="8" height="8" resizeKind="NSEW">
+        <target xmi:type="micro:PrimitiveTypeAttribute" href="Microarch_model.micro#//@models.1/@attributes.0"/>
+        <semanticElements xmi:type="micro:PrimitiveTypeAttribute" href="Microarch_model.micro#//@models.1/@attributes.0"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_d9Er8Y92EeiiUMuZPqXnwA" labelSize="12" labelPosition="node" width="8" height="8" color="246,139,139">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:SquareDescription" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='Model']/@subNodeMappings[name='PrimitiveTypeAttribute']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='Model']/@subNodeMappings[name='PrimitiveTypeAttribute']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_euIVcI92EeiiUMuZPqXnwA" name="invoice_name" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="micro:ReferenceAttribute" href="Microarch_model.micro#//@models.1/@attributes.1"/>
+        <semanticElements xmi:type="micro:ReferenceAttribute" href="Microarch_model.micro#//@models.1/@attributes.1"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_euIVcY92EeiiUMuZPqXnwA" labelSize="12" labelPosition="node" color="233,185,110">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:SquareDescription" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='Model']/@subNodeMappings[name='ReferenceAttribute']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='Model']/@subNodeMappings[name='ReferenceAttribute']"/>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_KAEVKIoBEeiR1Zgea3uS6A" name="order" incomingEdges="_JxGblY6qEeisiuX5jhVH3w" width="15" height="15">
+      <target xmi:type="micro:Model" href="Microarch_model.micro#//@models.2"/>
+      <semanticElements xmi:type="micro:Model" href="Microarch_model.micro#//@models.2"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_KAEVKYoBEeiR1Zgea3uS6A" labelSize="25" borderSize="1" borderSizeComputationExpression="1" foregroundColor="114,73,110">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='Model']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='Model']"/>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_0hPccI92EeiiUMuZPqXnwA" name="order_id" width="8" height="8" resizeKind="NSEW">
+        <target xmi:type="micro:PrimitiveTypeAttribute" href="Microarch_model.micro#//@models.2/@attributes.0"/>
+        <semanticElements xmi:type="micro:PrimitiveTypeAttribute" href="Microarch_model.micro#//@models.2/@attributes.0"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_0hPccY92EeiiUMuZPqXnwA" labelSize="12" labelPosition="node" width="8" height="8" color="246,139,139">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:SquareDescription" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='Model']/@subNodeMappings[name='PrimitiveTypeAttribute']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='Model']/@subNodeMappings[name='PrimitiveTypeAttribute']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_0_iiAI92EeiiUMuZPqXnwA" name="order_name" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="micro:ReferenceAttribute" href="Microarch_model.micro#//@models.2/@attributes.1"/>
+        <semanticElements xmi:type="micro:ReferenceAttribute" href="Microarch_model.micro#//@models.2/@attributes.1"/>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_0_iiAY92EeiiUMuZPqXnwA" labelSize="12" labelPosition="node" color="233,185,110">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:SquareDescription" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='Model']/@subNodeMappings[name='ReferenceAttribute']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@containerMappings[name='Model']/@subNodeMappings[name='ReferenceAttribute']"/>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_KAEVKooBEeiR1Zgea3uS6A" sourceNode="_KAEVIooBEeiR1Zgea3uS6A" targetNode="_KAEUxIoBEeiR1Zgea3uS6A">
+      <target xmi:type="micro:ViewService" href="Microarch_model.micro#//@services.3"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_KAEVK4oBEeiR1Zgea3uS6A" targetArrow="NoDecoration" size="2" strokeColor="114,159,207">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@edgeMappings[name='viewServtoaggreserv_aggreServtoviewServ']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_KAEVLIoBEeiR1Zgea3uS6A" labelColor="114,159,207"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@edgeMappings[name='viewServtoaggreserv_aggreServtoviewServ']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_KAEVLYoBEeiR1Zgea3uS6A" sourceNode="_KAEVIooBEeiR1Zgea3uS6A" targetNode="_KAEU2ooBEeiR1Zgea3uS6A">
+      <target xmi:type="micro:ViewService" href="Microarch_model.micro#//@services.3"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_KAEVLooBEeiR1Zgea3uS6A" targetArrow="NoDecoration" size="2" strokeColor="114,159,207">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@edgeMappings[name='viewServtoaggreserv_aggreServtoviewServ']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_KAEVL4oBEeiR1Zgea3uS6A" labelColor="114,159,207"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@edgeMappings[name='viewServtoaggreserv_aggreServtoviewServ']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_KAEVMIoBEeiR1Zgea3uS6A" sourceNode="_KAEVIooBEeiR1Zgea3uS6A" targetNode="_KAEU8IoBEeiR1Zgea3uS6A">
+      <target xmi:type="micro:ViewService" href="Microarch_model.micro#//@services.3"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_KAEVMYoBEeiR1Zgea3uS6A" targetArrow="NoDecoration" size="2" strokeColor="114,159,207">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@edgeMappings[name='viewServtoaggreserv_aggreServtoviewServ']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_KAEVMooBEeiR1Zgea3uS6A" labelColor="114,159,207"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@edgeMappings[name='viewServtoaggreserv_aggreServtoviewServ']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_Jw9RoI6qEeisiuX5jhVH3w" sourceNode="_KAEUxIoBEeiR1Zgea3uS6A" targetNode="_KAEVJIoBEeiR1Zgea3uS6A">
+      <target xmi:type="micro:AggregateService" href="Microarch_model.micro#//@services.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_JxGbkI6qEeisiuX5jhVH3w" targetArrow="NoDecoration" size="2" strokeColor="114,159,207">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@edgeMappings[name='AggregateTomodel']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_JxGbkY6qEeisiuX5jhVH3w"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@edgeMappings[name='AggregateTomodel']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_JxGbko6qEeisiuX5jhVH3w" sourceNode="_KAEU2ooBEeiR1Zgea3uS6A" targetNode="_KAEVJooBEeiR1Zgea3uS6A">
+      <target xmi:type="micro:AggregateService" href="Microarch_model.micro#//@services.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_JxGbk46qEeisiuX5jhVH3w" targetArrow="NoDecoration" size="2" strokeColor="114,159,207">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@edgeMappings[name='AggregateTomodel']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_JxGblI6qEeisiuX5jhVH3w"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@edgeMappings[name='AggregateTomodel']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_JxGblY6qEeisiuX5jhVH3w" sourceNode="_KAEU8IoBEeiR1Zgea3uS6A" targetNode="_KAEVKIoBEeiR1Zgea3uS6A">
+      <target xmi:type="micro:AggregateService" href="Microarch_model.micro#//@services.2"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_JxGblo6qEeisiuX5jhVH3w" targetArrow="NoDecoration" size="2" strokeColor="114,159,207">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@edgeMappings[name='AggregateTomodel']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_JxGbl46qEeisiuX5jhVH3w"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer/@edgeMappings[name='AggregateTomodel']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_KAEVPIoBEeiR1Zgea3uS6A"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/my.project_sirius.design/description/project_sirius.odesign#//@ownedViewpoints[name='Microservices']/@ownedRepresentations[name='micro_diagram']/@defaultLayer"/>
+    <target xmi:type="micro:MicroserviceArchitecture" href="Microarch_model.micro#/"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>
